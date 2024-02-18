@@ -15,6 +15,7 @@ In the near future I will write a little more information about what inspired me
 1. [**Hybrid with 7×7 synthetic light field views✖️: PSNR😞>=32dB**](#hybrid-with-77-synthetic-light-field-views%EF%B8%8F-psnr32db)
 ### Monocular Depth Estimation Rankings
 1. [**UnrealStereo4K (3840×2160): AbsRel<=0.04**](#unrealstereo4k-38402160-absrel004)
+1. [**HRSD (1920×1080): AbsRel<=0.08**](#hrsd-19201080-absrel008)
 1. [**NYU-Depth V2 (640×480): AbsRel<=0.055**](#nyu-depth-v2-640480-absrel0055)
 ### Appendices
 - **Appendix 1: Rules for qualifying models for the rankings** (to do)
@@ -39,10 +40,18 @@ In the near future I will write a little more information about what inspired me
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-light-field-video-reconstructionfrom-monocular-video-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
+## HRSD (1920×1080): AbsRel<=0.08
+| Rank | &nbsp;&nbsp;&nbsp;&nbsp;Model&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.} | Training<br />dataset | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; | Practical<br />model | Vapour Synth |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | DPT-B + R + AL<br />[![ICCV](https://img.shields.io/badge/2021-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2021/html/Ranftl_Vision_Transformers_for_Dense_Prediction_ICCV_2021_paper.html)<br />*Enhancement:*<br />[![CVPRW](https://img.shields.io/badge/2023-CVPRW-1e407f)](https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/html/Rajpal_High-Resolution_Synthetic_RGB-D_Datasets_for_Monocular_Depth_Estimation_CVPRW_2023_paper.html) | **0.074** {1}<br />[![CVPRW](https://img.shields.io/badge/2023-CVPRW-1e407f)](https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/html/Rajpal_High-Resolution_Synthetic_RGB-D_Datasets_for_Monocular_Depth_Estimation_CVPRW_2023_paper.html) | HRSD | [![GitHub Stars](https://img.shields.io/github/stars/isl-org/DPT?logo=GitHub&label=Stars)](https://github.com/isl-org/DPT)<br />*Enhancement:*<br />- | - | - |
+
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-light-field-video-reconstructionfrom-monocular-video-rankings)
+[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
+
 ## NYU-Depth V2 (640×480): AbsRel<=0.055
 | Rank | &nbsp;&nbsp;&nbsp;&nbsp;Model&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.} | Training<br />dataset | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; | Practical<br />model | VapourSynth |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | Depth Anything<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2401.10891)<br />*Backbone:*<br />ViT-L | **0.043** {1}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2401.10891) | BlendedMVS & DIML & HRWSI & IRS & MegaDepth & TartanAir & BDD100K & Google Landmarks & ImageNet-21K & LSUN & Objects365 & Open Images V7 & Places365 & SA-1B | [![GitHub Stars](https://img.shields.io/github/stars/LiheYoung/Depth-Anything?logo=GitHub&label=Stars)](https://github.com/LiheYoung/Depth-Anything) | - | - |
+| 1 | Depth Anything<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2401.10891)<br />*Backbone:*<br />DINOv2 (ViT-L/14) | **0.043** {1}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2401.10891) | BlendedMVS & DIML & HRWSI & IRS & MegaDepth & TartanAir & BDD100K & Google Landmarks & ImageNet-21K & LSUN & Objects365 & Open Images V7 & Places365 & SA-1B | [![GitHub Stars](https://img.shields.io/github/stars/LiheYoung/Depth-Anything?logo=GitHub&label=Stars)](https://github.com/LiheYoung/Depth-Anything) | - | - |
 | 2 |  | **0.048** {1}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2401.10891) |  |  | - | - |
 | 3 | Metric3D CSTM_label<br />[![ICCV](https://img.shields.io/badge/2023-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2023/html/Yin_Metric3D_Towards_Zero-shot_Metric_3D_Prediction_from_A_Single_Image_ICCV_2023_paper.html)<br />*Backbone:*<br />ConvNeXt-L | **0.050** {1}<br />[![ICCV](https://img.shields.io/badge/2023-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2023/html/Yin_Metric3D_Towards_Zero-shot_Metric_3D_Prediction_from_A_Single_Image_ICCV_2023_paper.html) | DDAD & Lyft & Driving Stereo & DIML & Arogoverse2 & Cityscapes & DSEC & Mapillary PSD & Pandaset & UASOL & Taskonomy | [![GitHub Stars](https://img.shields.io/github/stars/YvanYin/Metric3D?logo=GitHub&label=Stars)](https://github.com/YvanYin/Metric3D) | - | - |
 | 4 | DPT<br />[![ICCV](https://img.shields.io/badge/2021-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2021/html/Ranftl_Vision_Transformers_for_Dense_Prediction_ICCV_2021_paper.html)<br />*Backbone:*<br />BEiT-L | **0.054** {1}<br />[![ICCV](https://img.shields.io/badge/2023-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2023/html/Spencer_Kick_Back__Relax_Learning_to_Reconstruct_the_World_by_ICCV_2023_paper.html) | DIML Indoor & MegaDepth & ReDWeb & WSVD & 3D Movies & ApolloScape & IRS & TartanAir & HR-WSI & BlendedMVS & NYU-Depth V2 | [![GitHub Stars](https://img.shields.io/github/stars/isl-org/DPT?logo=GitHub&label=Stars)](https://github.com/isl-org/DPT) | - | - |
