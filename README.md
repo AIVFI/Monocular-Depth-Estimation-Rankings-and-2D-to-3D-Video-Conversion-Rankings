@@ -2,6 +2,8 @@
 
 ## <p align=center>List of Rankings</p>
 
+### 2D to 3D Video Conversion Rankings
+1. [**22_dogskateboarder.MOV (1 frame): Rank (human perceptual judgment)**](#22_dogskateboardermov-1-frame-rank-human-perceptual-judgment)
 ### Monocular Depth Estimation Rankings
 #### I. New layout
 1. [**ScanNet++ (98 video clips with 32 frames each): TAE**](#scannet-98-video-clips-with-32-frames-each-tae)
@@ -13,15 +15,24 @@
 1. [**DA-2K (mostly 1500×2000): Acc (%)>=86**](#da-2k-mostly-15002000-acc-86)
 1. [**UnrealStereo4K (3840×2160): AbsRel<=0.04**](#unrealstereo4k-38402160-absrel004)
 1. [**Middlebury2021 (1920×1080): SqRel<=0.5**](#middlebury2021-19201080-sqrel05)
-
-### 2D to 3D Video Conversion Rankings
-
 ### Appendices
 - **Appendix 1: Rules for qualifying models for the rankings** (to do)
 - **Appendix 2: Metrics selection for the rankings** (to do)
 - [**Appendix 3: List of all research papers from the above rankings**](#appendix-3-list-of-all-research-papers-from-the-above-rankings)
 
 --------------------
+
+## 22_dogskateboarder.MOV (1 frame): Rank (human perceptual judgment)
+📝 **Note:** There are no quantitative comparison results of StereoCrafter yet, so this ranking is based on my own perceptual judgement of the qualitative comparison results shown in [Figure 7](https://arxiv.org/abs/2409.07447). One output frame (right view) is compared with one input frame (left view) from the video file: [22_dogskateboarder.MOV](https://github.com/stereocrafter/stereocrafter.github.io/releases/V0.0.1)
+| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | Rank&nbsp;(human&nbsp;perceptual<br />judgment)&nbsp;↓<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447)<br />StereoCrafter |
+|:---:|:---:|:---:|
+| 1 | **StereoCrafter**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) | **1** |
+| 2-3 | **Immersity AI** | **2-3** |
+| 2-3 | **Owl3D** | **2-3** |
+| 4 | **Deep3D**<br />[![ECCV](https://img.shields.io/badge/2016-ECCV-67cd84)](https://link.springer.com/chapter/10.1007/978-3-319-46493-0_51) [![GitHub Stars](https://img.shields.io/github/stars/piiswrong/deep3d?logo=GitHub&label=Stars)](https://github.com/piiswrong/deep3d) | **4** |
+
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## ScanNet++ (98 video clips with 32 frames each): TAE
 | RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;TAE&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.10815)<br />DAV |
@@ -111,6 +122,7 @@
 |:---:|:---:|:---:|
 | BetterDepth | BetterDepth: Plug-and-Play Diffusion Refiner for Zero-Shot Monocular Depth Estimation | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2407.17952) |
 | ChronoDepth | Learning Temporally Consistent Video Depth from Video Diffusion Priors | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2406.01493) |
+| Deep3D | Deep3D: Fully Automatic 2D-to-3D Video Conversion with Deep Convolutional Neural Networks | [![ECCV](https://img.shields.io/badge/2016-ECCV-67cd84)](https://link.springer.com/chapter/10.1007/978-3-319-46493-0_51) |
 | Depth Any Video | Depth Any Video with Scalable Synthetic Data | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.10815) |
 | Depth Anything | Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data | [![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Depth_Anything_Unleashing_the_Power_of_Large-Scale_Unlabeled_Data_CVPR_2024_paper.html) |
 | Depth Anything V2 | Depth Anything V2 | [![NeurIPS](https://img.shields.io/badge/2024-NeurIPS-68448a)](https://arxiv.org/abs/2406.09414) |
@@ -132,6 +144,7 @@
 | NVDS | Neural Video Depth Stabilizer | [![ICCV](https://img.shields.io/badge/2023-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Neural_Video_Depth_Stabilizer_ICCV_2023_paper.html) |
 | NVDS<sup>+</sup> | NVDS<sup>+</sup>: Towards Efficient and Versatile Neural Stabilizer for Video Depth Estimation | [![TPAMI](https://img.shields.io/badge/2024-TPAMI-fefd02)](https://ieeexplore.ieee.org/document/10707178) |
 | PatchFusion | PatchFusion: An End-to-End Tile-Based Framework for High-Resolution Monocular Metric Depth Estimation | [![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Li_PatchFusion_An_End-to-End_Tile-Based_Framework_for_High-Resolution_Monocular_Metric_Depth_CVPR_2024_paper.html) |
+| StereoCrafter | StereoCrafter: Diffusion-based Generation of Long and High-fidelity Stereoscopic 3D from Monocular Videos | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) |
 | UniDepth | UniDepth: Universal Monocular Metric Depth Estimation | [![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Piccinelli_UniDepth_Universal_Monocular_Metric_Depth_Estimation_CVPR_2024_paper.html) |
 | ZoeDepth | ZoeDepth: Zero-shot Transfer by Combining Relative and Metric Depth | [![arXiv](https://img.shields.io/badge/2023-arXiv-b31b1b)](https://arxiv.org/abs/2302.12288) |
 
