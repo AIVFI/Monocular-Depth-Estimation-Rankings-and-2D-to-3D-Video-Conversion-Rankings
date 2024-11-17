@@ -8,7 +8,7 @@
 #### I. New layout
 1. [**ScanNet++ (98 video clips with 32 frames each): TAE**](#scannet-98-video-clips-with-32-frames-each-tae)
 1. [**NYU-Depth V2: OPW<=0.37**](#nyu-depth-v2-opw037)
-1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.063**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-absrel0063)
+1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.075**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-absrel0075)
 1. [**NYU-Depth V2: AbsRel<=0.045 [test: new layout]**](#nyu-depth-v2-absrel0045-test-new-layout)
 #### II. Old layout [currently no longer up to date]
 1. [**NYU-Depth V2 (640×480): AbsRel<=0.058 [currently no longer up to date]**](#nyu-depth-v2-640480-absrel0058-currently-no-longer-up-to-date)
@@ -55,10 +55,11 @@
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
-## Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.063
-| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.03825)<br />MonST3R | - |
+## Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.075
+| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.03825)<br />MonST3R | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.02095)<br />DC |
 |:---:|:---:|:---:|:---:|
 | 1 | **MonST3R**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.03825) [![GitHub Stars](https://img.shields.io/github/stars/Junyi42/monst3r?logo=GitHub&label=Stars)](https://github.com/Junyi42/monst3r) | **0.063** {MF} | - |
+| 2 | **DepthCrafter**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.02095) [![GitHub Stars](https://img.shields.io/github/stars/Tencent/DepthCrafter?logo=GitHub&label=Stars)](https://github.com/Tencent/DepthCrafter) | **0.075** {MF} | **0.075** {MF} |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
