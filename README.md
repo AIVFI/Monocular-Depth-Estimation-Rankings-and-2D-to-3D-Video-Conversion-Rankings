@@ -9,7 +9,7 @@
 1. [**ScanNet++ (98 video clips with 32 frames each): TAE**](#scannet-98-video-clips-with-32-frames-each-tae)
 1. [**NYU-Depth V2: OPW<=0.37**](#nyu-depth-v2-opw037)
 #### II. Rankings based on 3D metrics
-1. [**9 models tested on 5 datasets: F-score (metric depth)**](#9-models-tested-on-5-datasets-f-score-metric-depth)
+1. [**Direct comparison of 9 metric depth models (each with each) on 5 datasets: F-score**](#direct-comparison-of-9-metric-depth-models-each-with-each-on-5-datasets-f-score)
 #### III. Rankings based on 2D metrics
 1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.078**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-absrel0078)
 1. [**NYU-Depth V2: AbsRel<=0.045 (relative depth)**](#nyu-depth-v2-absrel0045-relative-depth)
@@ -59,11 +59,12 @@
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
-## 9 models tested on 5 datasets: F-score (metric depth)
-📝 **Note:** This ranking is based on data from [Table 4](https://arxiv.org/abs/2410.02073). A more detailed description will come in the next update.
+## Direct comparison of 9 metric depth models (each with each) on 5 datasets: F-score
+📝 **Note:** This ranking is based on data from [Table 4](https://arxiv.org/abs/2410.02073). The example result 3:0:2 (first left in the first row) means that Depth Pro has a better F-score than UniDepth-V in 3 datasets, in no dataset has the same F-score as UniDepth-V and has a worse F-score compared to UniDepth-V in 2 datasets.
 | RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | DP | UD | M3D v2 | DA V2 | DA | ZoD | M3D | PF | ZeD |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | **Depth Pro**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.02073) [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-depth-pro?logo=GitHub&label=Stars)](https://github.com/apple/ml-depth-pro) | - | **3:0:2** | **3:1:1** | **5:0:0** | **5:0:0** | **5:0:0** | **5:0:0** | **5:0:0** | **3:0:0** |
+| 2 | **UniDepth-V**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Piccinelli_UniDepth_Universal_Monocular_Metric_Depth_Estimation_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth?logo=GitHub&label=Stars)](https://github.com/lpiccinelli-eth/UniDepth) | **2:0:3** | - | **4:0:1** | **5:0:0** | **5:0:0** | **5:0:0** | **5:0:0** | **5:0:0** | **3:0:0** |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
