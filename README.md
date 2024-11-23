@@ -13,7 +13,7 @@
 #### III. Rankings based on 2D metrics
 1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.078**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-absrel0078)
 1. [**NYU-Depth V2: AbsRel<=0.045 (relative depth)**](#nyu-depth-v2-absrel0045-relative-depth)
-1. **NYU-Depth V2: AbsRel (metric depth)** (to do)
+1. [**NYU-Depth V2: AbsRel (metric depth)**](#nyu-depth-v2-absrel0045-metric-depth)
 #### IV. Old layout - currently no longer up to date
 1. [**NYU-Depth V2 (640×480): AbsRel<=0.058 (old layout - currently no longer up to date)**](#nyu-depth-v2-640480-absrel0058-old-layout---currently-no-longer-up-to-date)
 1. [**DA-2K (mostly 1500×2000): Acc (%)>=86 (old layout - currently no longer up to date)**](#da-2k-mostly-15002000-acc-86-old-layout---currently-no-longer-up-to-date)
@@ -88,6 +88,14 @@
 | 1-2 | **Metric3D v2 ViT-Large**<br />[![TPAMI](https://img.shields.io/badge/2024-TPAMI-fefd02)](https://ieeexplore.ieee.org/document/10638254) [![GitHub Stars](https://img.shields.io/github/stars/YvanYin/Metric3D?logo=GitHub&label=Stars)](https://github.com/YvanYin/Metric3D) | - | **0.042** {1} | - | - | - | - | - | - |
 | 3 | **Depth Anything Large**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Depth_Anything_Unleashing_the_Power_of_Large-Scale_Unlabeled_Data_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/LiheYoung/Depth-Anything?logo=GitHub&label=Stars)](https://github.com/LiheYoung/Depth-Anything) | **0.043** {1} | **0.043** {1} | **0.043** {1} | **0.043** {1} | - | - | - | - |
 | 4 | **Depth Anything V2 Large**<br />[![NeurIPS](https://img.shields.io/badge/2024-NeurIPS-68448a)](https://arxiv.org/abs/2406.09414) [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Depth-Anything-V2?logo=GitHub&label=Stars)](https://github.com/DepthAnything/Depth-Anything-V2) | - | - | - | **0.045** {1} | - | - | - | - |
+
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
+
+## NYU-Depth V2: AbsRel<=0.045 (metric depth)
+| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![TPAMI](https://img.shields.io/badge/2024-TPAMI-fefd02)](https://ieeexplore.ieee.org/document/10638254)<br />M3D v2 | - | - | - | - | - | - |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | **Metric3D v2 ViT-giant**<br />[![TPAMI](https://img.shields.io/badge/2024-TPAMI-fefd02)](https://ieeexplore.ieee.org/document/10638254) [![GitHub Stars](https://img.shields.io/github/stars/YvanYin/Metric3D?logo=GitHub&label=Stars)](https://github.com/YvanYin/Metric3D) | **0.045** {1} | - | - | - | - | - | - |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
