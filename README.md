@@ -1,5 +1,15 @@
 # <p align=center>Monocular Depth Estimation Rankings<br />and 2D to 3D Video Conversion Rankings</p>
 
+Due to the recent number of new models that I am unable to add to the rankings immediately, I have decided to add a waiting list of new models:
+
+| Method | Paper | &nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp; | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; |
+|:---:|:---:|:---:|:---:|
+| Align3R | Align3R: Aligned Monocular Depth Estimation for Dynamic Videos | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.03079) | [![GitHub Stars](https://img.shields.io/github/stars/jiah-cloud/Align3R?logo=GitHub&label=Stars)](https://github.com/jiah-cloud/Align3R) |
+| FiffDepth | FiffDepth: Feed-forward Transformation of Diffusion-Based Generators for Detailed Depth Estimation | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.00671) | - |
+| MegaSaM | MegaSaM: Accurate, Fast, and Robust Structure and Motion from Casual Dynamic Videos | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.04463) | [![GitHub Stars](https://img.shields.io/github/stars/mega-sam/mega-sam?logo=GitHub&label=Stars)](https://github.com/mega-sam/mega-sam) |
+| MoGe | MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.19115) | [![GitHub Stars](https://img.shields.io/github/stars/microsoft/MoGe?logo=GitHub&label=Stars)](https://github.com/microsoft/MoGe) |
+| RollingDepth | Video Depth without Video Models | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2411.19189) | [![GitHub Stars](https://img.shields.io/github/stars/prs-eth/RollingDepth?logo=GitHub&label=Stars)](https://github.com/prs-eth/RollingDepth) |
+
 ## <p align=center>List of Rankings</p>
 
 ### 2D to 3D Video Conversion Rankings
@@ -28,7 +38,7 @@
 
 ## Qualitative comparison of four 2D to 3D video conversion methods: Rank (human perceptual judgment)
 📝 **Note:** There are no quantitative comparison results of StereoCrafter yet, so this ranking is based on my own perceptual judgement of the qualitative comparison results shown in [Figure 7](https://arxiv.org/abs/2409.07447). One output frame (right view) is compared with one input frame (left view) from the video clip: [22_dogskateboarder](https://github.com/stereocrafter/stereocrafter.github.io/releases/V0.0.1) and one output frame (right view) is compared with one input frame (left view) from the video clip: [scooter-black](https://davischallenge.org/davis2016/code.html)
-| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | Rank&nbsp;(human&nbsp;perceptual<br />judgment)&nbsp;↓<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447)<br />StereoCrafter |
+| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | Rank&nbsp;↓<br />(human&nbsp;perceptual<br />judgment) |
 |:---:|:---:|:---:|
 | 1 | **StereoCrafter**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) | **1** |
 | 2-3 | **Immersity AI** | **2-3** |
