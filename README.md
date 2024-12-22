@@ -7,8 +7,10 @@ Due to the recent number of new models that I am unable to add to the rankings i
 | Align3R | Align3R: Aligned Monocular Depth Estimation for Dynamic Videos | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.03079) | [![GitHub Stars](https://img.shields.io/github/stars/jiah-cloud/Align3R?logo=GitHub&label=Stars)](https://github.com/jiah-cloud/Align3R) |
 | Buffer Anytime | Buffer Anytime: Zero-Shot Video Depth and Normal from Image Priors | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2411.17249) | - |
 | FiffDepth | FiffDepth: Feed-forward Transformation of Diffusion-Based Generators for Detailed Depth Estimation | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.00671) | - |
+| ImmersePro | ImmersePro: End-to-End Stereo Video Synthesis Via Implicit Disparity Learning | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.00262) | - |
 | MegaSaM | MegaSaM: Accurate, Fast, and Robust Structure and Motion from Casual Dynamic Videos | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.04463) | [![GitHub Stars](https://img.shields.io/github/stars/mega-sam/mega-sam?logo=GitHub&label=Stars)](https://github.com/mega-sam/mega-sam) |
 | RollingDepth | Video Depth without Video Models | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2411.19189) | [![GitHub Stars](https://img.shields.io/github/stars/prs-eth/RollingDepth?logo=GitHub&label=Stars)](https://github.com/prs-eth/RollingDepth) |
+| SpatialMe | SpatialMe: Stereo Video Conversion Using Depth-Warping and Blend-Inpainting | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.11512) | - |
 
 ## <p align=center>List of Rankings</p>
 
