@@ -1,5 +1,13 @@
 # <p align=center>Monocular Depth Estimation Rankings<br />and 2D to 3D Video Conversion Rankings</p>
 
+**Researchers!** On **19 December 2024**, a preprint paper was published that focuses on "evaluating self-supervised learning on non-semantic vision tasks that are **more spatial (3D) and temporal (+1D = 4D)**, such as camera pose estimation, point and object tracking, and depth estimation." The **4DS-j model** presented there achieves significantly better monocular depth estimation results than DINOv2 ViT-g, making it a **better backbone than DINOv2** for specialised video depth estimation models that can be the basis for better 2D to 3D video conversion, too! Please try to implement the 4DS-j backbone instead of DINOv2 ViT-g for your future breakthrough video depth estimation models! Below is a special ranking showing the capabilities of 4DS-j:
+
+## ScanNet: AbsRel (TOP2 best backbone for monocular depth estimation )
+| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />(frozen<br />backbone)<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.15212)<br />4DS | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />(short<br />finetuning)<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.15212)<br />4DS | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />(medium<br />finetuning)<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.15212)<br />4DS | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />(long<br />finetuning)<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.15212)<br />4DS |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | **4DS-j**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.15212) | **0.85** | **0.63** | **0.59** | **0.57** |
+| 2 | **DinoV2-g**<br />[![TMLR](https://img.shields.io/badge/2024-TMLR-bfcaef)](https://openreview.net/forum?id=a68SUt6zFt) [![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/dinov2?logo=GitHub&label=Stars)](https://github.com/facebookresearch/dinov2) | **0.92** | **0.76** | **0.69** | **0.66** |
+
 Due to the recent number of new models that I am unable to add to the rankings immediately, I have decided to add a waiting list of new models:
 
 | Method | Paper | &nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp; | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; |
@@ -163,6 +171,7 @@ Due to the recent number of new models that I am unable to add to the rankings i
 
 | Method | Paper | &nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp; |
 |:---:|:---:|:---:|
+| 4DS | Scaling 4D Representations | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.15212) | - |
 | BetterDepth | BetterDepth: Plug-and-Play Diffusion Refiner for Zero-Shot Monocular Depth Estimation | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2407.17952) |
 | ChronoDepth | Learning Temporally Consistent Video Depth from Video Diffusion Priors | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2406.01493) |
 | Deep3D | Deep3D: Fully Automatic 2D-to-3D Video Conversion with Deep Convolutional Neural Networks | [![ECCV](https://img.shields.io/badge/2016-ECCV-67cd84)](https://link.springer.com/chapter/10.1007/978-3-319-46493-0_51) |
@@ -171,6 +180,7 @@ Due to the recent number of new models that I am unable to add to the rankings i
 | Depth Anything V2 | Depth Anything V2 | [![NeurIPS](https://img.shields.io/badge/2024-NeurIPS-68448a)](https://arxiv.org/abs/2406.09414) |
 | Depth Pro | Depth Pro: Sharp Monocular Metric Depth in Less Than a Second | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.02073) |
 | DepthCrafter | DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.02095) |
+| DINOv2 | DINOv2: Learning Robust Visual Features without Supervision | [![TMLR](https://img.shields.io/badge/2024-TMLR-bfcaef)](https://openreview.net/forum?id=a68SUt6zFt) | [![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/dinov2?logo=GitHub&label=Stars)](https://github.com/facebookresearch/dinov2) |
 | FutureDepth | FutureDepth: Learning to Predict the Future Improves Video Depth Estimation | [![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/828_ECCV_2024_paper.php) |
 | GBDMF | Multi-Resolution Monocular Depth Map Fusion by Self-Supervised Gradient-Based Composition | [![AAAI](https://img.shields.io/badge/2023-AAAI-fddfa0)](https://ojs.aaai.org/index.php/AAAI/article/view/25123) |
 | GenPercept | Diffusion Models Trained with Large Data Are Transferable Visual Models | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2403.06090) |
