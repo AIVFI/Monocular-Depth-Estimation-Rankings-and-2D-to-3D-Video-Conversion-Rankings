@@ -13,7 +13,6 @@ Due to the recent number of new models that I am unable to add to the rankings i
 | Method | Paper | &nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp; | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; |
 |:---:|:---:|:---:|:---:|
 | Align3R | Align3R: Aligned Monocular Depth Estimation for Dynamic Videos | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.03079) | [![GitHub Stars](https://img.shields.io/github/stars/jiah-cloud/Align3R?logo=GitHub&label=Stars)](https://github.com/jiah-cloud/Align3R) |
-| Buffer Anytime | Buffer Anytime: Zero-Shot Video Depth and Normal from Image Priors | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2411.17249) | - |
 | FiffDepth | FiffDepth: Feed-forward Transformation of Diffusion-Based Generators for Detailed Depth Estimation | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.00671) | - |
 | ImmersePro | ImmersePro: End-to-End Stereo Video Synthesis Via Implicit Disparity Learning | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.00262) | [![GitHub Stars](https://img.shields.io/github/stars/shijianjian/ImmersePro?logo=GitHub&label=Stars)](https://github.com/shijianjian/ImmersePro) |
 | MegaSaM | MegaSaM: Accurate, Fast, and Robust Structure and Motion from Casual Dynamic Videos | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.04463) | [![GitHub Stars](https://img.shields.io/github/stars/mega-sam/mega-sam?logo=GitHub&label=Stars)](https://github.com/mega-sam/mega-sam) |
@@ -27,6 +26,7 @@ Due to the recent number of new models that I am unable to add to the rankings i
 ### Monocular Depth Estimation Rankings
 #### I. Rankings based on temporal consistency metrics
 1. [**ScanNet (170 frames): TAE<=2.2**](#scannet-170-frames-tae22)
+1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): OPW<=0.04**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-opw004)
 1. [**ScanNet++ (98 video clips with 32 frames each): TAE**](#scannet-98-video-clips-with-32-frames-each-tae)
 1. [**NYU-Depth V2: OPW<=0.37**](#nyu-depth-v2-opw037)
 #### II. Rankings based on 3D metrics
@@ -72,6 +72,15 @@ Due to the recent number of new models that I am unable to add to the rankings i
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
+## Bonn RGB-D Dynamic (5 video clips with 110 frames each): OPW<=0.04
+| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;OPW&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2411.17249)<br />BA |
+|:---:|:---:|:---:|
+| 1 | **Buffer Anytime (DA V2)**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2411.17249) | **0.028** {MF} |
+| 2 | **DepthCrafter**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.02095) [![GitHub Stars](https://img.shields.io/github/stars/Tencent/DepthCrafter?logo=GitHub&label=Stars)](https://github.com/Tencent/DepthCrafter) | **0.029** {MF} |
+| 3 | **ChronoDepth**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2406.01493) [![GitHub Stars](https://img.shields.io/github/stars/jhaoshao/ChronoDepth)](https://github.com/jhaoshao/ChronoDepth) | **0.035** {MF} |
+
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## ScanNet++ (98 video clips with 32 frames each): TAE
 | RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;TAE&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.10815)<br />DAV |
@@ -187,6 +196,7 @@ Due to the recent number of new models that I am unable to add to the rankings i
 |:---:|:---:|:---:|
 | 4DS | Scaling 4D Representations | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.15212) | - |
 | BetterDepth | BetterDepth: Plug-and-Play Diffusion Refiner for Zero-Shot Monocular Depth Estimation | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2407.17952) |
+| Buffer Anytime | Buffer Anytime: Zero-Shot Video Depth and Normal from Image Priors | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2411.17249) | - |
 | ChronoDepth | Learning Temporally Consistent Video Depth from Video Diffusion Priors | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2406.01493) |
 | Deep3D | Deep3D: Fully Automatic 2D-to-3D Video Conversion with Deep Convolutional Neural Networks | [![ECCV](https://img.shields.io/badge/2016-ECCV-67cd84)](https://link.springer.com/chapter/10.1007/978-3-319-46493-0_51) |
 | Depth Any Video | Depth Any Video with Scalable Synthetic Data | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.10815) |
