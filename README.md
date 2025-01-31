@@ -26,7 +26,7 @@ Due to the recent number of new models that I am unable to add to the rankings i
 ### Monocular Depth Estimation Rankings
 #### I. Rankings based on temporal consistency metrics
 1. [**ScanNet (170 frames): TAE<=2.2**](#scannet-170-frames-tae22)
-1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): OPW<=0.04**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-opw004)
+1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): OPW<=0.1**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-opw01)
 1. [**ScanNet++ (98 video clips with 32 frames each): TAE**](#scannet-98-video-clips-with-32-frames-each-tae)
 1. [**NYU-Depth V2: OPW<=0.37**](#nyu-depth-v2-opw037)
 #### II. Rankings based on 3D metrics
@@ -70,12 +70,15 @@ Due to the recent number of new models that I am unable to add to the rankings i
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
-## Bonn RGB-D Dynamic (5 video clips with 110 frames each): OPW<=0.04
+## Bonn RGB-D Dynamic (5 video clips with 110 frames each): OPW<=0.1
 | RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;OPW&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2411.17249)<br />BA |
 |:---:|:---:|:---:|
 | 1 | **Buffer Anytime (DA V2)**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2411.17249) | **0.028** {MF} |
 | 2 | **DepthCrafter**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.02095) [![GitHub Stars](https://img.shields.io/github/stars/Tencent/DepthCrafter?logo=GitHub&label=Stars)](https://github.com/Tencent/DepthCrafter) | **0.029** {MF} |
 | 3 | **ChronoDepth**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2406.01493) [![GitHub Stars](https://img.shields.io/github/stars/jhaoshao/ChronoDepth)](https://github.com/jhaoshao/ChronoDepth) | **0.035** {MF} |
+| 4 | **Marigold + E2E FT**<br />[![WACV](https://img.shields.io/badge/2025-WACV-2e0094)](https://arxiv.org/abs/2409.11355) [![GitHub Stars](https://img.shields.io/github/stars/VisualComputingInstitute/diffusion-e2e-ft)](https://github.com/VisualComputingInstitute/diffusion-e2e-ft) | **0.053** {1} |
+| 5 | **Depth Anything V2 Large**<br />[![NeurIPS](https://img.shields.io/badge/2024-NeurIPS-68448a)](https://arxiv.org/abs/2406.09414) [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Depth-Anything-V2?logo=GitHub&label=Stars)](https://github.com/DepthAnything/Depth-Anything-V2) | **0.059** {1} |
+| 6 | **NVDS**<br />[![ICCV](https://img.shields.io/badge/2023-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Neural_Video_Depth_Stabilizer_ICCV_2023_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/RaymondWang987/NVDS?logo=GitHub&label=Stars)](https://github.com/RaymondWang987/NVDS) | **0.068** {4} |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
@@ -193,6 +196,7 @@ Due to the recent number of new models that I am unable to add to the rankings i
 | Depth Pro | Depth Pro: Sharp Monocular Metric Depth in Less Than a Second | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.02073) |
 | DepthCrafter | DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.02095) |
 | DINOv2 | DINOv2: Learning Robust Visual Features without Supervision | [![TMLR](https://img.shields.io/badge/2024-TMLR-bfcaef)](https://openreview.net/forum?id=a68SUt6zFt) | [![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/dinov2?logo=GitHub&label=Stars)](https://github.com/facebookresearch/dinov2) |
+| Diffusion E2E FT | Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think | [![WACV](https://img.shields.io/badge/2025-WACV-2e0094)](https://arxiv.org/abs/2409.11355) |
 | FutureDepth | FutureDepth: Learning to Predict the Future Improves Video Depth Estimation | [![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/828_ECCV_2024_paper.php) |
 | GenPercept | Diffusion Models Trained with Large Data Are Transferable Visual Models | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2403.06090) |
 | GeoWizard | GeoWizard: Unleashing the Diffusion Priors for 3D Geometry Estimation from a Single Image | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2403.12013) |
