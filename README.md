@@ -32,12 +32,11 @@ Due to the recent number of new models that I am unable to add to the rankings i
 #### II. Rankings based on 3D metrics
 1. [**Direct comparison of 9 metric depth models (each with each) on 5 datasets: F-score**](#direct-comparison-of-9-metric-depth-models-each-with-each-on-5-datasets-f-score)
 #### III. Rankings based on 2D metrics
-1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.078**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-absrel0078)
+1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.091**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-absrel0091)
 1. [**NYU-Depth V2: AbsRel<=0.045 (relative depth)**](#nyu-depth-v2-absrel0045-relative-depth)
 1. [**NYU-Depth V2: AbsRel<=0.051 (metric depth)**](#nyu-depth-v2-absrel0051-metric-depth)
 #### IV. Old layout - currently no longer up to date
 1. [**NYU-Depth V2 (640×480): AbsRel<=0.058 (old layout - currently no longer up to date)**](#nyu-depth-v2-640480-absrel0058-old-layout---currently-no-longer-up-to-date)
-1. [**UnrealStereo4K (3840×2160): AbsRel<=0.04 (old layout - currently no longer up to date)**](#unrealstereo4k-38402160-absrel004-old-layout---currently-no-longer-up-to-date)
 ### Appendices
 - **Appendix 1: Rules for qualifying models for the rankings** (to do)
 - **Appendix 2: Metrics selection for the rankings** (to do)
@@ -120,13 +119,14 @@ Due to the recent number of new models that I am unable to add to the rankings i
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
-## Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.078
+## Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.091
 📝 **Note:** This Ranking will temporarily not be updated due to - see [Figure 4](https://arxiv.org/abs/2501.12375)
 | RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.03825)<br />MonST3R | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.02095)<br />DC |
 |:---:|:---:|:---:|:---:|
 | 1 | **MonST3R**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.03825) [![GitHub Stars](https://img.shields.io/github/stars/Junyi42/monst3r?logo=GitHub&label=Stars)](https://github.com/Junyi42/monst3r) | **0.063** {MF} | - |
-| 2 | **DepthCrafter**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.02095) [![GitHub Stars](https://img.shields.io/github/stars/Tencent/DepthCrafter?logo=GitHub&label=Stars)](https://github.com/Tencent/DepthCrafter) | **0.075** {MF} | **0.075** {MF} |
+| 2 | **DepthCrafter v1.0.1**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.02095) [![GitHub Stars](https://img.shields.io/github/stars/Tencent/DepthCrafter?logo=GitHub&label=Stars)](https://github.com/Tencent/DepthCrafter) | **0.075** {MF}<br />(DC v1.0.0) | **0.071** {MF} |
 | 3 | **Depth Anything**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Depth_Anything_Unleashing_the_Power_of_Large-Scale_Unlabeled_Data_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/LiheYoung/Depth-Anything?logo=GitHub&label=Stars)](https://github.com/LiheYoung/Depth-Anything) | - | **0.078** {1} |
+| 4 | **Marigold**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Ke_Repurposing_Diffusion-Based_Image_Generators_for_Monocular_Depth_Estimation_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/prs-eth/Marigold?logo=GitHub&label=Stars)](https://github.com/prs-eth/Marigold) | **0.091** {1} | **0.091** {1} |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
