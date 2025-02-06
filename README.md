@@ -1,13 +1,5 @@
 # <p align=center>Monocular Depth Estimation Rankings<br />and 2D to 3D Video Conversion Rankings</p>
 
-**Researchers!** On **19 December 2024**, a preprint paper was published that focuses on "evaluating self-supervised learning on non-semantic vision tasks that are **more spatial (3D) and temporal (+1D = 4D)**, such as camera pose estimation, point and object tracking, and depth estimation." The **4DS-j model** presented there achieves significantly better monocular depth estimation results than DINOv2 ViT-g, making it a **better backbone than DINOv2** for specialised video depth estimation models that can be the basis for better 2D to 3D video conversion, too! Please try to implement the 4DS-j backbone instead of DINOv2 ViT-g for your future breakthrough video depth estimation models! Below is a special ranking showing the capabilities of 4DS-j:
-
-## ScanNet: AbsRel (TOP2 best backbone for monocular depth estimation )
-| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />(frozen<br />backbone)<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.15212)<br />4DS | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />(short<br />finetuning)<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.15212)<br />4DS | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />(medium<br />finetuning)<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.15212)<br />4DS | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />(long<br />finetuning)<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.15212)<br />4DS |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | **4DS-j**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.15212) | **0.85** | **0.63** | **0.59** | **0.57** |
-| 2 | **DinoV2-g**<br />[![TMLR](https://img.shields.io/badge/2024-TMLR-bfcaef)](https://openreview.net/forum?id=a68SUt6zFt) [![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/dinov2?logo=GitHub&label=Stars)](https://github.com/facebookresearch/dinov2) | **0.92** | **0.76** | **0.69** | **0.66** |
-
 Due to the recent number of new models that I am unable to add to the rankings immediately, I have decided to add a waiting list of new models:
 
 | Method | Paper | &nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp; | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; |
@@ -35,8 +27,6 @@ Due to the recent number of new models that I am unable to add to the rankings i
 1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.091**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-absrel0091)
 1. [**NYU-Depth V2: AbsRel<=0.045 (relative depth)**](#nyu-depth-v2-absrel0045-relative-depth)
 1. [**NYU-Depth V2: AbsRel<=0.051 (metric depth)**](#nyu-depth-v2-absrel0051-metric-depth)
-#### IV. Old layout - currently no longer up to date
-1. [**NYU-Depth V2 (640×480): AbsRel<=0.058 (old layout - currently no longer up to date)**](#nyu-depth-v2-640480-absrel0058-old-layout---currently-no-longer-up-to-date)
 ### Appendices
 - **Appendix 1: Rules for qualifying models for the rankings** (to do)
 - **Appendix 2: Metrics selection for the rankings** (to do)
