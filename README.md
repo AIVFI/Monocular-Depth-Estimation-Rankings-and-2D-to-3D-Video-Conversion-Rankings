@@ -1,15 +1,5 @@
 # <p align=center>Monocular Depth Estimation Rankings<br />and 2D to 3D Video Conversion Rankings</p>
 
-Due to the recent number of new models that I am unable to add to the rankings immediately, I have decided to add a waiting list of new models:
-
-| Method | Paper | &nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp; | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; |
-|:---:|:---:|:---:|:---:|
-| FiffDepth | FiffDepth: Feed-forward Transformation of Diffusion-Based Generators for Detailed Depth Estimation | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.00671) | - |
-| ImmersePro | ImmersePro: End-to-End Stereo Video Synthesis Via Implicit Disparity Learning | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.00262) | [![GitHub Stars](https://img.shields.io/github/stars/shijianjian/ImmersePro)](https://github.com/shijianjian/ImmersePro) |
-| MegaSaM | MegaSaM: Accurate, Fast, and Robust Structure and Motion from Casual Dynamic Videos | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.04463) | [![GitHub Stars](https://img.shields.io/github/stars/mega-sam/mega-sam)](https://github.com/mega-sam/mega-sam) |
-| RollingDepth | Video Depth without Video Models | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2411.19189) | [![GitHub Stars](https://img.shields.io/github/stars/prs-eth/RollingDepth)](https://github.com/prs-eth/RollingDepth) |
-| SpatialMe | SpatialMe: Stereo Video Conversion Using Depth-Warping and Blend-Inpainting | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.11512) | - |
-
 ## <p align=center>List of Rankings</p>
 
 ### 2D to 3D Video Conversion Rankings
@@ -23,7 +13,7 @@ Due to the recent number of new models that I am unable to add to the rankings i
 #### II. Rankings based on 3D metrics
 1. [**Direct comparison of 9 metric depth models (each with each) on 5 datasets: F-score**](#direct-comparison-of-9-metric-depth-models-each-with-each-on-5-datasets-f-score)
 #### III. Rankings based on 2D metrics
-1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.091**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-absrel0091)
+1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.079**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-absrel0079)
 1. [**NYU-Depth V2: AbsRel<=0.045 (relative depth)**](#nyu-depth-v2-absrel0045-relative-depth)
 1. [**NYU-Depth V2: AbsRel<=0.051 (metric depth)**](#nyu-depth-v2-absrel0051-metric-depth)
 ### Appendices
@@ -93,7 +83,7 @@ Due to the recent number of new models that I am unable to add to the rankings i
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## Direct comparison of 9 metric depth models (each with each) on 5 datasets: F-score
-📝 **Note:** This ranking is based on data from [Table 4](https://arxiv.org/abs/2410.02073). The example result 3:0:2 (first left in the first row) means that Depth Pro has a better F-score than UniDepth-V in 3 datasets, in no dataset has the same F-score as UniDepth-V and has a worse F-score compared to UniDepth-V in 2 datasets.
+📝 **Note:** This ranking is based on data from [Table 4](https://arxiv.org/abs/2410.02073). The example score 3:0:2 (first left in the first row) means that Depth Pro has a better F-score than UniDepth-V in 3 datasets, in no dataset has the same F-score as UniDepth-V and has a worse F-score compared to UniDepth-V in 2 datasets.
 | RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | DP | UD | M3D v2 | DA V2 | DA | ZoeD | M3D | PF | ZD |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | **Depth Pro**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.02073) [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-depth-pro)](https://github.com/apple/ml-depth-pro) | - | **3:0:2** | **3:1:1** | **5:0:0** | **5:0:0** | **5:0:0** | **5:0:0** | **5:0:0** | **3:0:0** |
@@ -108,18 +98,18 @@ Due to the recent number of new models that I am unable to add to the rankings i
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
-## Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.091
-📝 **Note:** See [Figure 4](https://arxiv.org/abs/2501.12375)
-| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2501.12375)<br />VDA | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.03079)<br />Align3R | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.03825)<br />MonST3R | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.02095)<br />DC |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | **Depth Any Video**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.10815) [![GitHub Stars](https://img.shields.io/github/stars/Nightmare-n/DepthAnyVideo)](https://github.com/Nightmare-n/DepthAnyVideo) | **0.051** {MF} | - | - | - |
-| 2 | **VDA-L**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2501.12375) [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Video-Depth-Anything)](https://github.com/DepthAnything/Video-Depth-Anything) | **0.053** {MF} | - | - | - |
-| 3 | **Depth Pro**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.02073) [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-depth-pro)](https://github.com/apple/ml-depth-pro) | - | **0.067** {1} | - | - |
-| 4 | **Align3R (Depth Pro)**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.03079) [![GitHub Stars](https://img.shields.io/github/stars/jiah-cloud/Align3R)](https://github.com/jiah-cloud/Align3R) | - | **0.068** {2} | - | - |
-| 5 | **MonST3R**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.03825) [![GitHub Stars](https://img.shields.io/github/stars/Junyi42/monst3r)](https://github.com/Junyi42/monst3r) | - | **0.082** {2} | **0.063** {2} | - |
-| 6 | **DepthCrafter v1.0.1**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.02095) [![GitHub Stars](https://img.shields.io/github/stars/Tencent/DepthCrafter)](https://github.com/Tencent/DepthCrafter) | **0.066** {MF}<br />(DC v1.0.0) | **0.075** {MF}<br />(DC v1.0.0) | **0.075** {MF}<br />(DC v1.0.0) | **0.071** {MF} |
-| 7 | **Depth Anything**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Depth_Anything_Unleashing_the_Power_of_Large-Scale_Unlabeled_Data_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/LiheYoung/Depth-Anything)](https://github.com/LiheYoung/Depth-Anything) | - | - | - | **0.078** {1} |
-| 8 | **Marigold**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Ke_Repurposing_Diffusion-Based_Image_Generators_for_Monocular_Depth_Estimation_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/prs-eth/Marigold)](https://github.com/prs-eth/Marigold) | - | - | **0.091** {1} | **0.091** {1} |
+## Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.079
+📝 **Note:** 1) See [Figure 4](https://arxiv.org/abs/2501.12375) 2) The ranking order is determined in the first instance by a direct comparison of the scores of two models in the same paper. If there is no such direct comparison in any paper or there is a disagreement in different papers, the ranking order is determined by the best score of the compared two models in all papers that are shown in the columns as data sources.
+| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2501.12375)<br />VDA | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.03079)<br />Align3R | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.03825)<br />MonST3R | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.02095)<br />DC | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2411.19189)<br />RD |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | **Depth Any Video**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.10815) [![GitHub Stars](https://img.shields.io/github/stars/Nightmare-n/DepthAnyVideo)](https://github.com/Nightmare-n/DepthAnyVideo) | **0.051** {MF} | - | - | - | - |
+| 2 | **VDA-L**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2501.12375) [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Video-Depth-Anything)](https://github.com/DepthAnything/Video-Depth-Anything) | **0.053** {MF} | - | - | - | - |
+| 3 | **Depth Pro**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.02073) [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-depth-pro)](https://github.com/apple/ml-depth-pro) | - | **0.067** {1} | - | - | - |
+| 4 | **Align3R (Depth Pro)**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.03079) [![GitHub Stars](https://img.shields.io/github/stars/jiah-cloud/Align3R)](https://github.com/jiah-cloud/Align3R) | - | **0.068** {2} | - | - | - |
+| 5 | **MonST3R**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.03825) [![GitHub Stars](https://img.shields.io/github/stars/Junyi42/monst3r)](https://github.com/Junyi42/monst3r) | - | **0.082** {2} | **0.063** {2} | - | - |
+| 6 | **DepthCrafter v1.0.1**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.02095) [![GitHub Stars](https://img.shields.io/github/stars/Tencent/DepthCrafter)](https://github.com/Tencent/DepthCrafter) | **0.066** {MF}<br />(DC v1.0.0) | **0.075** {MF}<br />(DC v1.0.0) | **0.075** {MF}<br />(DC v1.0.0) | **0.071** {MF} | **0.066** {MF} |
+| 7 | **RollingDepth**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2411.19189) [![GitHub Stars](https://img.shields.io/github/stars/prs-eth/RollingDepth)](https://github.com/prs-eth/RollingDepth) | - | - | - | - | **0.079** {MF} |
+| 8 | **Depth Anything**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Depth_Anything_Unleashing_the_Power_of_Large-Scale_Unlabeled_Data_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/LiheYoung/Depth-Anything)](https://github.com/LiheYoung/Depth-Anything) | - | - | - | **0.078** {1} | **0.099** {1} |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
@@ -169,7 +159,6 @@ Due to the recent number of new models that I am unable to add to the rankings i
 | Diffusion E2E FT | Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think | [![WACV](https://img.shields.io/badge/2025-WACV-2e0094)](https://arxiv.org/abs/2409.11355) |
 | FutureDepth | FutureDepth: Learning to Predict the Future Improves Video Depth Estimation | [![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/828_ECCV_2024_paper.php) |
 | GRIN | GRIN: Zero-Shot Metric Depth with Pixel-Level Diffusion | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.09896) |
-| Marigold | Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation | [![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Ke_Repurposing_Diffusion-Based_Image_Generators_for_Monocular_Depth_Estimation_CVPR_2024_paper.html) |
 | Metric3D | Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image | [![ICCV](https://img.shields.io/badge/2023-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2023/html/Yin_Metric3D_Towards_Zero-shot_Metric_3D_Prediction_from_A_Single_Image_ICCV_2023_paper.html) |
 | Metric3D v2 | Metric3D v2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation | [![TPAMI](https://img.shields.io/badge/2024-TPAMI-fefd02)](https://ieeexplore.ieee.org/document/10638254) |
 | MoGe | MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2410.19115) | [![GitHub Stars](https://img.shields.io/github/stars/microsoft/MoGe)](https://github.com/microsoft/MoGe) |
@@ -177,6 +166,7 @@ Due to the recent number of new models that I am unable to add to the rankings i
 | NVDS | Neural Video Depth Stabilizer | [![ICCV](https://img.shields.io/badge/2023-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Neural_Video_Depth_Stabilizer_ICCV_2023_paper.html) |
 | NVDS<sup>+</sup> | NVDS<sup>+</sup>: Towards Efficient and Versatile Neural Stabilizer for Video Depth Estimation | [![TPAMI](https://img.shields.io/badge/2024-TPAMI-fefd02)](https://ieeexplore.ieee.org/document/10707178) |
 | PatchFusion | PatchFusion: An End-to-End Tile-Based Framework for High-Resolution Monocular Metric Depth Estimation | [![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Li_PatchFusion_An_End-to-End_Tile-Based_Framework_for_High-Resolution_Monocular_Metric_Depth_CVPR_2024_paper.html) |
+| RollingDepth | Video Depth without Video Models | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2411.19189) | [![GitHub Stars](https://img.shields.io/github/stars/prs-eth/RollingDepth)](https://github.com/prs-eth/RollingDepth) |
 | StereoCrafter | StereoCrafter: Diffusion-based Generation of Long and High-fidelity Stereoscopic 3D from Monocular Videos | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) |
 | UniDepth | UniDepth: Universal Monocular Metric Depth Estimation | [![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Piccinelli_UniDepth_Universal_Monocular_Metric_Depth_Estimation_CVPR_2024_paper.html) |
 | ZoeDepth | ZoeDepth: Zero-shot Transfer by Combining Relative and Metric Depth | [![arXiv](https://img.shields.io/badge/2023-arXiv-b31b1b)](https://arxiv.org/abs/2302.12288) |
