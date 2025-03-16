@@ -5,6 +5,7 @@
 |  | **Dataset** | **S<br />y<br />n** | **V<br />i<br />d** | **D<br />y<br />n** | **I<br />n<br />d** | **O<br />u<br />t** | **Resolution** | **C<br />3<br />R** | **D<br />P** | **M<br />o<br />G** | **U<br />D<br />2** | **V<br />D<br />A** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | **[Spring](https://spring-benchmark.org/)** | **✓** | **✓** | **✓** | **✗** | **✓** | **1920×1080** | **T** | **E** | **T** | **-** | **-** |
+| 2 | **[MVS-Synth](https://phuang17.github.io/DeepMVS/mvs-synth.html)** | **✓** | **✓** | **✗** | **✗** | **✓** | **1920×1080** | **T** | **T** | **T** | **-** | **-** |
 
 ## <p align=center>List of Rankings</p>
 
