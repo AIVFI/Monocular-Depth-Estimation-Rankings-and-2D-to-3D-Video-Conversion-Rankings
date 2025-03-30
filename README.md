@@ -10,6 +10,7 @@
 | 4 | **[MatrixCity](https://city-super.github.io/matrixcity/)** | **✓** | **✓** | **✗** | **✗** | **✓** | **1000×1000** | **-** | **-** | **T** | **T** | **-** |
 | 5 | **[SAIL-VOS 3D](https://sailvos.web.illinois.edu/_site/_site/index.html)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1280×800** | **-** | **T** | **-** | **-** | **-** |
 | 6 | **[BEDLAM](https://bedlam.is.tue.mpg.de/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1280×720** | **T** | **T** | **-** | **T** | **-** |
+| 7 | **[PointOdyssey](https://pointodyssey.com/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **960×540** | **T** | **-** | **-** | **T** | **T** |
 
 ## <p align=center>List of Rankings</p>
 
