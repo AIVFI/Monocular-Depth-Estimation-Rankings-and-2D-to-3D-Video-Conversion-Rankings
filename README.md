@@ -2,16 +2,17 @@
 
 ### Awesome Synthetic RGB-D Video Datasets for Training HD Video Depth Estimation Models
 📝 **Note:** Explanations of abbreviations and more datasets will be added in future updates.
-|  | **Dataset** | **S<br />y<br />n** | **V<br />i<br />d** | **D<br />y<br />n** | **I<br />n<br />d** | **O<br />u<br />t** | **Resolution** | **C<br />3<br />R** | **D<br />P** | **M<br />o<br />G** | **U<br />D<br />2** | **V<br />D<br />A** |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | **[Spring](https://spring-benchmark.org/)** | **✓** | **✓** | **✓** | **✗** | **✓** | **1920×1080** | **T** | **E** | **T** | **-** | **-** |
-| 2 | **[MVS-Synth](https://phuang17.github.io/DeepMVS/mvs-synth.html)** | **✓** | **✓** | **✗** | **✗** | **✓** | **1920×1080** | **T** | **T** | **T** | **-** | **-** |
-| 3 | **[Mid-Air](https://midair.ulg.ac.be/)** | **✓** | **✓** | **✗** | **✗** | **✓** | **1024×1024** | **-** | **-** | **T** | **-** | **-** |
-| 4 | **[MatrixCity](https://city-super.github.io/matrixcity/)** | **✓** | **✓** | **✗** | **✗** | **✓** | **1000×1000** | **-** | **-** | **T** | **T** | **-** |
-| 5 | **[SAIL-VOS 3D](https://sailvos.web.illinois.edu/_site/_site/index.html)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1280×800** | **-** | **T** | **-** | **-** | **-** |
-| 6 | **[BEDLAM](https://bedlam.is.tue.mpg.de/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1280×720** | **T** | **T** | **-** | **T** | **-** |
-| 7 | **[PointOdyssey](https://pointodyssey.com/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **960×540** | **T** | **-** | **-** | **T** | **T** |
-| 8 | **[IRS](https://github.com/HKBU-HPML/IRS)** | **✓** | **✓** | **✗** | **✓** | **✗** | **960×540** | **T** | **T** | **T** | **-** | **T** |
+|  | **Dataset** | **S<br />y<br />n** | **V<br />i<br />d** | **D<br />y<br />n** | **I<br />n<br />d** | **O<br />u<br />t** | **Resolution** | **C<br />3<br />R** | **D<br />P** | **G<br />C** | **M<br />o<br />G** | **U<br />D<br />2** | **V<br />D<br />A** |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | **[Spring](https://spring-benchmark.org/)** | **✓** | **✓** | **✓** | **✗** | **✓** | **1920×1080** | **T** | **E** | **T** | **T** | **-** | **-** |
+| 2 | **[MVS-Synth](https://phuang17.github.io/DeepMVS/mvs-synth.html)** | **✓** | **✓** | **✗** | **✗** | **✓** | **1920×1080** | **T** | **T** | **T** | **T** | **-** | **-** |
+| 3 | **[Mid-Air](https://midair.ulg.ac.be/)** | **✓** | **✓** | **✗** | **✗** | **✓** | **1024×1024** | **-** | **-** | **T** | **T** | **-** | **-** |
+| 4 | **[MatrixCity](https://city-super.github.io/matrixcity/)** | **✓** | **✓** | **✗** | **✗** | **✓** | **1000×1000** | **-** | **-** | **T** | **T** | **T** | **-** |
+| 5 | **[SAIL-VOS 3D](https://sailvos.web.illinois.edu/_site/_site/index.html)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1280×800** | **-** | **T** | **-** | **-** | **-** | **-** |
+| 6 | **[BEDLAM](https://bedlam.is.tue.mpg.de/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1280×720** | **T** | **T** | **-** | **-** | **T** | **-** |
+| 7 | **[Dynamic Replica](https://dynamic-stereo.github.io/)** | **✓** | **✓** | **✓** | **✓** | **✗** | **1280×720** | **T** | **T** | **T** | **-** | **T** | **-** |
+| 8 | **[PointOdyssey](https://pointodyssey.com/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **960×540** | **T** | **-** | **-** | **-** | **T** | **T** |
+| 9 | **[IRS](https://github.com/HKBU-HPML/IRS)** | **✓** | **✓** | **✗** | **✓** | **✗** | **960×540** | **T** | **T** | **T** | **T** | **-** | **T** |
 
 ## <p align=center>List of Rankings</p>
 
