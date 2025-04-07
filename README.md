@@ -13,6 +13,7 @@
 | 7 | **[Dynamic Replica](https://dynamic-stereo.github.io/)** | **✓** | **✓** | **✓** | **✓** | **✗** | **1280×720** | **T** | **T** | **T** | **-** | **T** | **-** |
 | 8 | **[PointOdyssey](https://pointodyssey.com/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **960×540** | **T** | **-** | **-** | **-** | **T** | **T** |
 | 9 | **[IRS](https://github.com/HKBU-HPML/IRS)** | **✓** | **✓** | **✗** | **✓** | **✗** | **960×540** | **T** | **T** | **T** | **T** | **-** | **T** |
+| 10 | **[TartanAir](https://theairlab.org/tartanair-dataset/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **640×480** | **T** | **T** | **T** | **T** | **T** | **T** |
 
 ## <p align=center>List of Rankings</p>
 
