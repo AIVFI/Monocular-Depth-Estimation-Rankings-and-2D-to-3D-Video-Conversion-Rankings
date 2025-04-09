@@ -14,6 +14,7 @@
 | 8 | **[PointOdyssey](https://pointodyssey.com/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **960×540** | **T** | **-** | **-** | **-** | **T** | **T** |
 | 9 | **[IRS](https://github.com/HKBU-HPML/IRS)** | **✓** | **✓** | **✗** | **✓** | **✗** | **960×540** | **T** | **T** | **T** | **T** | **-** | **T** |
 | 10 | **[TartanAir](https://theairlab.org/tartanair-dataset/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **640×480** | **T** | **T** | **T** | **T** | **T** | **T** |
+| 11 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** |
 
 ## <p align=center>List of Rankings</p>
 
