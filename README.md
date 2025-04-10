@@ -15,6 +15,7 @@
 | 9 | **[IRS](https://github.com/HKBU-HPML/IRS)** | **✓** | **✓** | **✗** | **✓** | **✗** | **960×540** | **T** | **T** | **T** | **T** | **-** | **T** |
 | 10 | **[TartanAir](https://theairlab.org/tartanair-dataset/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **640×480** | **T** | **T** | **T** | **T** | **T** | **T** |
 | 11 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** |
+| 12 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | **✓** | **✓** | **✓** | **✗** | **✓** | **1242×375** | **T** | **T** | **T** | **-** | **-** | **T** |
 
 ## <p align=center>List of Rankings</p>
 
