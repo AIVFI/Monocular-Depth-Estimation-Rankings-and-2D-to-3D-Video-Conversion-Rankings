@@ -13,10 +13,11 @@
 | 7 | **[Dynamic Replica](https://dynamic-stereo.github.io/)** | **✓** | **✓** | **✓** | **✓** | **✗** | **1280×720** | **T** | **T** | **T** | **-** | **T** | **-** |
 | 8 | **[PointOdyssey](https://pointodyssey.com/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **960×540** | **T** | **-** | **-** | **-** | **T** | **T** |
 | 9 | **[IRS](https://github.com/HKBU-HPML/IRS)** | **✓** | **✓** | **✗** | **✓** | **✗** | **960×540** | **T** | **T** | **T** | **T** | **-** | **T** |
-| 10 | **[TartanAir](https://theairlab.org/tartanair-dataset/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **640×480** | **T** | **T** | **T** | **T** | **T** | **T** |
-| 11 | **[GTA-SfM](https://github.com/HKUST-Aerial-Robotics/Flow-Motion-Depth)** | **✓** | **✓** | **✗** | **✗** | **✓** | **640×480** | **-** | **-** | **T** | **T** | **-** | **-** |
-| 12 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** |
-| 13 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | **✓** | **✓** | **✓** | **✗** | **✓** | **1242×375** | **T** | **T** | **T** | **-** | **-** | **T** |
+| 10 | **[Scene Flow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)** | **✓** | **✓** | **✓** | **✓** | **✓** | **960×540** | **-** | **-** | **E** | **-** | **-** | **-** |
+| 11 | **[TartanAir](https://theairlab.org/tartanair-dataset/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **640×480** | **T** | **T** | **T** | **T** | **T** | **T** |
+| 12 | **[GTA-SfM](https://github.com/HKUST-Aerial-Robotics/Flow-Motion-Depth)** | **✓** | **✓** | **✗** | **✗** | **✓** | **640×480** | **-** | **-** | **T** | **T** | **-** | **-** |
+| 13 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** |
+| 14 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | **✓** | **✓** | **✓** | **✗** | **✓** | **1242×375** | **T** | **T** | **T** | **-** | **-** | **T** |
 
 ## <p align=center>List of Rankings</p>
 
