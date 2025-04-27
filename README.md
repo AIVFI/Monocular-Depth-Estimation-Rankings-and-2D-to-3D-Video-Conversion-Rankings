@@ -30,8 +30,6 @@
 #### I. Rankings based on temporal consistency metrics
 1. [**ScanNet (170 frames): TAE<=2.2**](#scannet-170-frames-tae22)
 1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): OPW<=0.1**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-opw01)
-1. [**ScanNet++ (98 video clips with 32 frames each): TAE**](#scannet-98-video-clips-with-32-frames-each-tae)
-1. [**NYU-Depth V2: OPW<=0.37**](#nyu-depth-v2-opw037)
 #### II. Rankings based on 3D metrics
 1. [**MPI Sintel: F-score>=0.4**](#mpi-sintel-f-score04)
 1. [**Direct comparison of 9 metric depth models (each with each) on 5 datasets: F-score**](#direct-comparison-of-9-metric-depth-models-each-with-each-on-5-datasets-f-score)
@@ -80,17 +78,6 @@
 | 4 | **Marigold + E2E FT**<br />[![WACV](https://img.shields.io/badge/2025-WACV-2e0094)](https://openaccess.thecvf.com/content/WACV2025/html/Garcia_Fine-Tuning_Image-Conditional_Diffusion_Models_is_Easier_than_You_Think_WACV_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/VisualComputingInstitute/diffusion-e2e-ft)](https://github.com/VisualComputingInstitute/diffusion-e2e-ft) | **0.053** {1} |
 | 5 | **Depth Anything V2 Large**<br />[![NeurIPS](https://img.shields.io/badge/2024-NeurIPS-68448a)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/26cfdcd8fe6fd75cc53e92963a656c58-Abstract-Conference.html) [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Depth-Anything-V2)](https://github.com/DepthAnything/Depth-Anything-V2) | **0.059** {1} |
 | 6 | **NVDS**<br />[![ICCV](https://img.shields.io/badge/2023-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Neural_Video_Depth_Stabilizer_ICCV_2023_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/RaymondWang987/NVDS)](https://github.com/RaymondWang987/NVDS) | **0.068** {4} |
-
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
-[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
-
-## ScanNet++ (98 video clips with 32 frames each): TAE
-| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;TAE&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=gWqFbnKsqR)<br />DAV |
-|:---:|:---:|:---:|
-| 1 | **Depth Any Video**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=gWqFbnKsqR) [![GitHub Stars](https://img.shields.io/github/stars/Nightmare-n/DepthAnyVideo)](https://github.com/Nightmare-n/DepthAnyVideo) | **2.1** {MF} |
-| 2 | **DepthCrafter**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://arxiv.org/abs/2409.02095) [![GitHub Stars](https://img.shields.io/github/stars/Tencent/DepthCrafter)](https://github.com/Tencent/DepthCrafter) | **2.2** {MF} |
-| 3 | **ChronoDepth**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://arxiv.org/abs/2406.01493) [![GitHub Stars](https://img.shields.io/github/stars/jhaoshao/ChronoDepth)](https://github.com/jhaoshao/ChronoDepth) | **2.3** {MF} |
-| 4 | **NVDS**<br />[![ICCV](https://img.shields.io/badge/2023-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Neural_Video_Depth_Stabilizer_ICCV_2023_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/RaymondWang987/NVDS)](https://github.com/RaymondWang987/NVDS) | **3.7** {4} |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
