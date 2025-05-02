@@ -31,7 +31,6 @@
 1. [**ScanNet (170 frames): TAE<=2.2**](#scannet-170-frames-tae22)
 #### II. Rankings based on 3D metrics
 1. [**iBims-1: F-score>=0.303**](#ibims-1-f-score0303)
-1. [**MPI Sintel: F-score>=0.4**](#mpi-sintel-f-score04)
 #### III. Rankings based on 2D metrics
 1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.079**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-absrel0079)
 1. [**NYU-Depth V2: AbsRel<=0.0424 (relative depth)**](#nyu-depth-v2-absrel00424-relative-depth)
@@ -76,17 +75,6 @@
 | 3 | **Depth Pro**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=aueXfY0Clv) [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-depth-pro)](https://github.com/apple/ml-depth-pro) | **0.628** {1} | **0.628** {1} |
 | 4 | **MASt3R**<br />[![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9080_ECCV_2024_paper.php) [![GitHub Stars](https://img.shields.io/github/stars/naver/mast3r)](https://github.com/naver/mast3r) | **0.557** {2} | **0.557** {2} |
 | 5 | **UniDepth**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Piccinelli_UniDepth_Universal_Monocular_Metric_Depth_Estimation_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) | **0.303** {1} | **0.303** {1} |
-
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
-[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
-
-## MPI Sintel: F-score>=0.4
-| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;F-score&nbsp;↑&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.20110)<br />UD2 |
-|:---:|:---:|:---:|
-| 1 | **UniDepthV2-Base**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.20110) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) | **0.518** {1} |
-| 2 | **Depth Pro**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=aueXfY0Clv) [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-depth-pro)](https://github.com/apple/ml-depth-pro) | **0.497** {1} |
-| 3 | **MASt3R**<br />[![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9080_ECCV_2024_paper.php) [![GitHub Stars](https://img.shields.io/github/stars/naver/mast3r)](https://github.com/naver/mast3r) | **0.415** {2} |
-| 4 | **UniDepth**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Piccinelli_UniDepth_Universal_Monocular_Metric_Depth_Estimation_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) | **0.402** {1} |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
