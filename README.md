@@ -1,27 +1,28 @@
 # <p align=center>Monocular Depth Estimation Rankings<br />and 2D to 3D Video Conversion Rankings</p>
 
 ### Awesome Synthetic RGB-D Video Datasets for Training HD Video Depth Estimation Models
-📝 **Note:** 1) Explanations of abbreviations and more datasets will be added in future updates. 2) BoT=[Back on Track](https://wrchen530.github.io/projects/batrack/) GC=[GeometryCrafter](https://github.com/TencentARC/GeometryCrafter) POM=[POMATO](https://github.com/wyddmw/POMATO)
-|  | **Dataset** | **S<br />y<br />n** | **V<br />i<br />d** | **D<br />y<br />n** | **I<br />n<br />d** | **O<br />u<br />t** | **Resolution** | **B<br />o<br />T** | **C<br />3<br />R** | **D<br />P** | **G<br />C** | **M<br />o<br />G** | **P<br />O<br />M** | **R<br />D** | **U<br />D<br />2** | **V<br />D<br />A** |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | **[Spring](https://spring-benchmark.org/)** | **✓** | **✓** | **✓** | **✗** | **✓** | **1920×1080** | **-** | **T** | **E** | **T** | **T** | **-** | **-** | **-** | **-** |
-| 2 | **[MVS-Synth](https://phuang17.github.io/DeepMVS/mvs-synth.html)** | **✓** | **✓** | **✗** | **✗** | **✓** | **1920×1080** | **-** | **T** | **T** | **T** | **T** | **-** | **-** | **-** | **-** |
-| 3 | **[Mid-Air](https://midair.ulg.ac.be/)** | **✓** | **✓** | **✗** | **✗** | **✓** | **1024×1024** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **-** | **-** |
-| 4 | **[MatrixCity](https://city-super.github.io/matrixcity/)** | **✓** | **✓** | **✗** | **✗** | **✓** | **1000×1000** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **T** | **-** |
-| 5 | **[SAIL-VOS 3D](https://sailvos.web.illinois.edu/_site/_site/index.html)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1280×800** | **-** | **-** | **T** | **-** | **-** | **-** | **-** | **-** | **-** |
-| 6 | **[BEDLAM](https://bedlam.is.tue.mpg.de/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1280×720** | **-** | **T** | **T** | **-** | **-** | **-** | **-** | **T** | **-** |
-| 7 | **[Dynamic Replica](https://dynamic-stereo.github.io/)** | **✓** | **✓** | **✓** | **✓** | **✗** | **1280×720** | **-** | **T** | **T** | **T** | **-** | **T** | **-** | **T** | **-** |
-| 8 | **[PointOdyssey](https://pointodyssey.com/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **960×540** | **-** | **T** | **-** | **-** | **-** | **T** | **E** | **T** | **T** |
-| 9 | **[DyDToF](https://zhsun0357.github.io/consistent_dtof_video/)** | **✓** | **✓** | **✓** | **✓** | **✗** | **960×540** | **-** | **-** | **-** | **-** | **-** | **-** | **E** | **-** | **-** |
-| 10 | **[IRS](https://github.com/HKBU-HPML/IRS)** | **✓** | **✓** | **✗** | **✓** | **✗** | **960×540** | **-** | **T** | **T** | **T** | **T** | **-** | **-** | **-** | **T** |
-| 11 | **[Scene Flow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)** | **✓** | **✓** | **✓** | **✓** | **✓** | **960×540** | **-** | **-** | **-** | **E** | **-** | **-** | **-** | **-** | **-** |
-| 12 | **[TartanAir](https://theairlab.org/tartanair-dataset/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **640×480** | **-** | **T** | **T** | **T** | **T** | **T** | **T** | **T** | **T** |
-| 13 |
-| 14 | **[ParallelDomain-4D](https://gcd.cs.columbia.edu/)** | **✓** | **✓** | **✓** | **✗** | **✓** | **640×480** | **-** | **-** | **-** | **-** | **-** | **T** | **-** | **-** | **-** |
-| 15 | **[GTA-SfM](https://github.com/HKUST-Aerial-Robotics/Flow-Motion-Depth)** | **✓** | **✓** | **✗** | **✗** | **✓** | **640×480** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **-** | **-** |
-| 16 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** | **-** | **E** | **E** |
-| 17 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | **✓** | **✓** | **✓** | **✗** | **✓** | **1242×375** | **-** | **T** | **T** | **T** | **-** | **-** | **-** | **-** | **T** |
-| 18 | **[TartanAir Shibuya](https://github.com/haleqiu/tartanair-shibuya)** | **✓** | **✓** | **✓** | **✗** | **✓** | **640×360** | **E** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
+|  | Dataset | S<br />y<br />n | V<br />i<br />d | D<br />y<br />n | I<br />n<br />d | O<br />u<br />t | Resolution | [B<br />o<br />T](https://arxiv.org/abs/2504.14516 "Back on Track") | C<br />3<br />R | [D<br /><sup>2</sup><br />U](https://arxiv.org/abs/2504.06264 "D^2USt3R") | D<br />P | [G<br />C](https://arxiv.org/abs/2504.01016 "GeometryCrafter") | M<br />o<br />G | [P<br />O<br />M](https://arxiv.org/abs/2504.05692 "POMATO") | R<br />D | U<br />D<br />2 | V<br />D<br />A |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | **[Spring](https://spring-benchmark.org/)** | **✓** | **✓** | **✓** | **✗** | **✓** | **1920×1080** | **-** | **T** | **T** | **E** | **T** | **T** | **-** | **-** | **-** | **-** |
+| 2 | **[MVS-Synth](https://phuang17.github.io/DeepMVS/mvs-synth.html)** | **✓** | **✓** | **✗** | **✗** | **✓** | **1920×1080** | **-** | **T** | **-** | **T** | **T** | **T** | **-** | **-** | **-** | **-** |
+| 3 | **[Mid-Air](https://midair.ulg.ac.be/)** | **✓** | **✓** | **✗** | **✗** | **✓** | **1024×1024** | **-** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **-** | **-** |
+| 4 | **[MatrixCity](https://city-super.github.io/matrixcity/)** | **✓** | **✓** | **✗** | **✗** | **✓** | **1000×1000** | **-** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **T** | **-** |
+| 5 | **[SAIL-VOS 3D](https://sailvos.web.illinois.edu/_site/_site/index.html)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1280×800** | **-** | **-** | **-** | **T** | **-** | **-** | **-** | **-** | **-** | **-** |
+| 6 | **[BEDLAM](https://bedlam.is.tue.mpg.de/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1280×720** | **-** | **T** | **-** | **T** | **-** | **-** | **-** | **-** | **T** | **-** |
+| 7 | **[Dynamic Replica](https://dynamic-stereo.github.io/)** | **✓** | **✓** | **✓** | **✓** | **✗** | **1280×720** | **-** | **T** | **-** | **T** | **T** | **-** | **T** | **-** | **T** | **-** |
+| 8 | **[BlinkVision](https://www.blinkvision.org/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **960×540** | **-** | **-** | **T** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
+| 9 | **[PointOdyssey](https://pointodyssey.com/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **960×540** | **-** | **T** | **T** | **-** | **-** | **-** | **T** | **E** | **T** | **T** |
+| 10 | **[DyDToF](https://zhsun0357.github.io/consistent_dtof_video/)** | **✓** | **✓** | **✓** | **✓** | **✗** | **960×540** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **E** | **-** | **-** |
+| 11 | **[IRS](https://github.com/HKBU-HPML/IRS)** | **✓** | **✓** | **✗** | **✓** | **✗** | **960×540** | **-** | **T** | **-** | **T** | **T** | **T** | **-** | **-** | **-** | **T** |
+| 12 | **[Scene Flow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)** | **✓** | **✓** | **✓** | **✓** | **✓** | **960×540** | **-** | **-** | **-** | **-** | **E** | **-** | **-** | **-** | **-** | **-** |
+| 13 | **[TartanAir](https://theairlab.org/tartanair-dataset/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **640×480** | **-** | **T** | **T** | **T** | **T** | **T** | **T** | **T** | **T** | **T** |
+| 14 | **[ParallelDomain-4D](https://gcd.cs.columbia.edu/)** | **✓** | **✓** | **✓** | **✗** | **✓** | **640×480** | **-** | **-** | **-** | **-** | **-** | **-** | **T** | **-** | **-** | **-** |
+| 15 | **[GTA-SfM](https://github.com/HKUST-Aerial-Robotics/Flow-Motion-Depth)** | **✓** | **✓** | **✗** | **✗** | **✓** | **640×480** | **-** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **-** | **-** |
+| 16 | **[Sintel](http://sintel.is.tue.mpg.de/)** | **✓** | **✓** | **✓** | **✓** | **✓** | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **-** | **E** | **E** |
+| 17 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | **✓** | **✓** | **✓** | **✗** | **✓** | **1242×375** | **-** | **T** | **-** | **T** | **T** | **-** | **-** | **-** | **-** | **T** |
+| 18 | **[TartanAir Shibuya](https://github.com/haleqiu/tartanair-shibuya)** | **✓** | **✓** | **✓** | **✗** | **✓** | **640×360** | **E** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
+| | **Total: T (training)** |
+| | **Total: E (testing)** |
 
 ## <p align=center>List of Rankings</p>
 
