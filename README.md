@@ -28,6 +28,7 @@
 ## <p align=center>List of Rankings</p>
 
 ### 2D to 3D Video Conversion Rankings
+1. [**Stereo4D (400 video clips with 16 frames each at 5 fps): LPIPS<=0.180**](#stereo4d-400-video-clips-with-16-frames-each-at-5-fps-lpips0180)
 1. [**Qualitative comparison of four 2D to 3D video conversion methods: Rank (human perceptual judgment)**](#qualitative-comparison-of-four-2d-to-3d-video-conversion-methods-rank-human-perceptual-judgment)
 ### Monocular Depth Estimation Rankings
 #### I. Rankings based on temporal consistency metrics
@@ -44,6 +45,14 @@
 - [**Appendix 3: List of all research papers from the above rankings**](#appendix-3-list-of-all-research-papers-from-the-above-rankings)
 
 --------------------
+
+## Stereo4D (400 video clips with 16 frames each at 5 fps): LPIPS<=0.180
+| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;LPIPS&nbsp;↓&nbsp;&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2505.16565)<br />Table 1<br />M2SVid |
+|:---:|:---:|:---:|
+| 1 | **M2SVid**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2505.16565) | **0.180** {MF} |
+
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## Qualitative comparison of four 2D to 3D video conversion methods: Rank (human perceptual judgment)
 📝 **Note:** There are no quantitative comparison results of StereoCrafter yet, so this ranking is based on my own perceptual judgement of the qualitative comparison results shown in [Figure 7](https://arxiv.org/abs/2409.07447). One output frame (right view) is compared with one input frame (left view) from the video clip: [22_dogskateboarder](https://github.com/stereocrafter/stereocrafter.github.io/releases/V0.0.1) and one output frame (right view) is compared with one input frame (left view) from the video clip: [scooter-black](https://davischallenge.org/davis2016/code.html)
@@ -144,6 +153,7 @@
 | Geo4D | - | Geo4D: Leveraging Video Generators for Geometric 4D Scene Reconstruction | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2504.07961) | [![GitHub Stars](https://img.shields.io/github/stars/jzr99/Geo4D)](https://github.com/jzr99/Geo4D) |
 | GRIN | - | GRIN: Zero-Shot Metric Depth with Pixel-Level Diffusion | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.09896) | - |
 | L4P | - | L4P: Low-Level 4D Vision Perception Unified | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.13078) | - |
+| M2SVid | - | M2SVid: End-to-End Inpainting and Refinement for Monocular-to-Stereo Video Conversion | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2505.16565) | - |
 | MASt3R | - | Grounding Image Matching in 3D with MASt3R | [![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9080_ECCV_2024_paper.php) | [![GitHub Stars](https://img.shields.io/github/stars/naver/mast3r)](https://github.com/naver/mast3r) |
 | Metric3D v2 | M3D v2 | Metric3D v2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation | [![TPAMI](https://img.shields.io/badge/2024-TPAMI-fefd02)](https://ieeexplore.ieee.org/document/10638254)<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2404.15506) | [![GitHub Stars](https://img.shields.io/github/stars/YvanYin/Metric3D)](https://github.com/YvanYin/Metric3D) |
 | Metric-Solver | MS | Metric-Solver: Sliding Anchored Metric Depth Estimation from a Single Image | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2504.12103) | [![GitHub Stars](https://img.shields.io/github/stars/Tele-AI/MetricSolver)](https://github.com/Tele-AI/MetricSolver) |
