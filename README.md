@@ -28,7 +28,7 @@
 ## <p align=center>List of Rankings</p>
 
 ### 2D to 3D Video Conversion Rankings
-1. [**Stereo4D (400 video clips with 16 frames each at 5 fps): LPIPS<=0.180**](#stereo4d-400-video-clips-with-16-frames-each-at-5-fps-lpips0180)
+1. [**Stereo4D (400 video clips with 16 frames each at 5 fps): LPIPS<=0.242**](#stereo4d-400-video-clips-with-16-frames-each-at-5-fps-lpips0242)
 1. [**Qualitative comparison of four 2D to 3D video conversion methods: Rank (human perceptual judgment)**](#qualitative-comparison-of-four-2d-to-3d-video-conversion-methods-rank-human-perceptual-judgment)
 ### Monocular Depth Estimation Rankings
 #### I. Rankings based on temporal consistency metrics
@@ -46,16 +46,18 @@
 
 --------------------
 
-## Stereo4D (400 video clips with 16 frames each at 5 fps): LPIPS<=0.180
+## Stereo4D (400 video clips with 16 frames each at 5 fps): LPIPS<=0.242
 | RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;LPIPS&nbsp;↓&nbsp;&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2505.16565)<br />Table 1<br />M2SVid |
 |:---:|:---:|:---:|
 | 1 | **M2SVid**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2505.16565) | **0.180** {MF} |
+| 2 | **SVG**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=sx2jXZuhIx) [![GitHub Stars](https://img.shields.io/github/stars/google/Stereoscopic-Video-Generation-via-Denoising-Frame-Matrix)](https://github.com/google/Stereoscopic-Video-Generation-via-Denoising-Frame-Matrix) | **0.217** {MF} |
+| 3 | **StereoCrafter**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/StereoCrafter)](https://github.com/TencentARC/StereoCrafter) | **0.242** {MF} |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## Qualitative comparison of four 2D to 3D video conversion methods: Rank (human perceptual judgment)
-📝 **Note:** There are no quantitative comparison results of StereoCrafter yet, so this ranking is based on my own perceptual judgement of the qualitative comparison results shown in [Figure 7](https://arxiv.org/abs/2409.07447). One output frame (right view) is compared with one input frame (left view) from the video clip: [22_dogskateboarder](https://github.com/stereocrafter/stereocrafter.github.io/releases/V0.0.1) and one output frame (right view) is compared with one input frame (left view) from the video clip: [scooter-black](https://davischallenge.org/davis2016/code.html)
+📝 **Note:** This ranking is based on my own perceptual judgement of the qualitative comparison results shown in [Figure 7](https://arxiv.org/abs/2409.07447). One output frame (right view) is compared with one input frame (left view) from the video clip: [22_dogskateboarder](https://github.com/stereocrafter/stereocrafter.github.io/releases/V0.0.1) and one output frame (right view) is compared with one input frame (left view) from the video clip: [scooter-black](https://davischallenge.org/davis2016/code.html)
 | RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | Rank&nbsp;↓<br />(human&nbsp;perceptual<br />judgment) |
 |:---:|:---:|:---:|
 | 1 | **StereoCrafter**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/StereoCrafter)](https://github.com/TencentARC/StereoCrafter) | **1** |
@@ -162,6 +164,7 @@
 | NVDS | - | Neural Video Depth Stabilizer | [![ICCV](https://img.shields.io/badge/2023-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Neural_Video_Depth_Stabilizer_ICCV_2023_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/RaymondWang987/NVDS)](https://github.com/RaymondWang987/NVDS) |
 | RollingDepth | RD | Video Depth without Video Models | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://arxiv.org/abs/2411.19189) | [![GitHub Stars](https://img.shields.io/github/stars/prs-eth/RollingDepth)](https://github.com/prs-eth/RollingDepth) |
 | StereoCrafter | - | StereoCrafter: Diffusion-based Generation of Long and High-fidelity Stereoscopic 3D from Monocular Videos | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) | [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/StereoCrafter)](https://github.com/TencentARC/StereoCrafter) |
+| SVG | - | SVG: 3D Stereoscopic Video Generation via Denoising Frame Matrix | [![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=sx2jXZuhIx) | [![GitHub Stars](https://img.shields.io/github/stars/google/Stereoscopic-Video-Generation-via-Denoising-Frame-Matrix)](https://github.com/google/Stereoscopic-Video-Generation-via-Denoising-Frame-Matrix) |
 | UniDepth | UD | UniDepth: Universal Monocular Metric Depth Estimation | [![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Piccinelli_UniDepth_Universal_Monocular_Metric_Depth_Estimation_CVPR_2024_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) |
 | UniDepthV2 | UD2 | UniDepthV2: Universal Monocular Metric Depth Estimation Made Simpler | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.20110) | [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) |
 | UniK3D | - | UniK3D: Universal Camera Monocular 3D Estimation | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://arxiv.org/abs/2503.16591) | [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniK3D)](https://github.com/lpiccinelli-eth/UniK3D) |
