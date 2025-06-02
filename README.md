@@ -4,24 +4,25 @@
 |  | Dataset | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Resolution | [B<br />o<br />T](https://arxiv.org/abs/2504.14516 "Back on Track") | [C<br />3<br />R](https://arxiv.org/abs/2501.12387 "CUT3R") | [D<br /><sup>2</sup><br />U](https://arxiv.org/abs/2504.06264 "D^2USt3R") | [D<br />P](https://openreview.net/forum?id=aueXfY0Clv "Depth Pro") | [G<br />C](https://arxiv.org/abs/2504.01016 "GeometryCrafter") | [M<br />o<br />G](https://arxiv.org/abs/2410.19115 "MoGe") | [P<br />O<br />M](https://arxiv.org/abs/2504.05692 "POMATO") | [R<br />D](https://arxiv.org/abs/2411.19189 "RollingDepth") | [U<br />D<br />2](https://arxiv.org/abs/2502.20110 "UniDepthV2") | [V<br />D<br />A](https://arxiv.org/abs/2501.12375 "Video Depth Anything") |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | **[Spring](https://spring-benchmark.org/)** | (to do) | **1920×1080** | **-** | **T** | **T** | **E** | **T** | **T** | **-** | **-** | **-** | **-** |
-| 2 | **[MVS-Synth](https://phuang17.github.io/DeepMVS/mvs-synth.html)** | (to do) | **1920×1080** | **-** | **T** | **-** | **T** | **T** | **T** | **-** | **-** | **-** | **-** |
-| 3 | **[Mid-Air](https://midair.ulg.ac.be/)** | (to do) | **1024×1024** | **-** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **-** | **-** |
-| 4 | **[MatrixCity](https://city-super.github.io/matrixcity/)** | (to do) | **1000×1000** | **-** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **T** | **-** |
-| 5 | **[SAIL-VOS 3D](https://sailvos.web.illinois.edu/_site/_site/index.html)** | (to do) | **1280×800** | **-** | **-** | **-** | **T** | **-** | **-** | **-** | **-** | **-** | **-** |
-| 6 | **[BEDLAM](https://bedlam.is.tue.mpg.de/)** | (to do) | **1280×720** | **-** | **T** | **-** | **T** | **-** | **-** | **-** | **-** | **T** | **-** |
-| 7 | **[Dynamic Replica](https://dynamic-stereo.github.io/)** | (to do) | **1280×720** | **-** | **T** | **-** | **T** | **T** | **-** | **T** | **-** | **T** | **-** |
-| 8 | **[BlinkVision](https://www.blinkvision.org/)** | [![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8381_ECCV_2024_paper.php) | **960×540** | **-** | **-** | **T** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
-| 9 | **[PointOdyssey](https://pointodyssey.com/)** | (to do) | **960×540** | **-** | **T** | **T** | **-** | **-** | **-** | **T** | **E** | **T** | **T** |
-| 10 | **[DyDToF](https://zhsun0357.github.io/consistent_dtof_video/)** | (to do) | **960×540** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **E** | **-** | **-** |
-| 11 | **[IRS](https://github.com/HKBU-HPML/IRS)** | (to do) | **960×540** | **-** | **T** | **-** | **T** | **T** | **T** | **-** | **-** | **-** | **T** |
-| 12 | **[Scene Flow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)** | (to do) | **960×540** | **-** | **-** | **-** | **-** | **E** | **-** | **-** | **-** | **-** | **-** |
-| 13 | **[3D Ken Burns](https://github.com/sniklaus/3d-ken-burns)** | (to do) | **512×512** | **-** | **T** | **-** | **T** | **T** | **T** | **-** | **-** | **-** | **-** |
-| 14 | **[TartanAir](https://theairlab.org/tartanair-dataset/)** | (to do) | **640×480** | **-** | **T** | **T** | **T** | **T** | **T** | **T** | **T** | **T** | **T** |
-| 15 | **[ParallelDomain-4D](https://gcd.cs.columbia.edu/)** | [![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3510_ECCV_2024_paper.php) | **640×480** | **-** | **-** | **-** | **-** | **-** | **-** | **T** | **-** | **-** | **-** |
-| 16 | **[GTA-SfM](https://github.com/HKUST-Aerial-Robotics/Flow-Motion-Depth)** | (to do) | **640×480** | **-** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **-** | **-** |
-| 17 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | (to do) | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **-** | **E** | **E** |
-| 18 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | (to do) | **1242×375** | **-** | **T** | **-** | **T** | **T** | **-** | **-** | **-** | **-** | **T** |
-| 19 | **[TartanAir Shibuya](https://github.com/haleqiu/tartanair-shibuya)** | (to do) | **640×360** | **E** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
+| 2 | **[HorizonGS](https://city-super.github.io/horizon-gs/)** | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://arxiv.org/abs/2412.01745) | **1920×1080** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
+| 3 | **[MVS-Synth](https://phuang17.github.io/DeepMVS/mvs-synth.html)** | (to do) | **1920×1080** | **-** | **T** | **-** | **T** | **T** | **T** | **-** | **-** | **-** | **-** |
+| 4 | **[Mid-Air](https://midair.ulg.ac.be/)** | (to do) | **1024×1024** | **-** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **-** | **-** |
+| 5 | **[MatrixCity](https://city-super.github.io/matrixcity/)** | (to do) | **1000×1000** | **-** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **T** | **-** |
+| 6 | **[SAIL-VOS 3D](https://sailvos.web.illinois.edu/_site/_site/index.html)** | (to do) | **1280×800** | **-** | **-** | **-** | **T** | **-** | **-** | **-** | **-** | **-** | **-** |
+| 7 | **[BEDLAM](https://bedlam.is.tue.mpg.de/)** | (to do) | **1280×720** | **-** | **T** | **-** | **T** | **-** | **-** | **-** | **-** | **T** | **-** |
+| 8 | **[Dynamic Replica](https://dynamic-stereo.github.io/)** | (to do) | **1280×720** | **-** | **T** | **-** | **T** | **T** | **-** | **T** | **-** | **T** | **-** |
+| 9 | **[BlinkVision](https://www.blinkvision.org/)** | [![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8381_ECCV_2024_paper.php) | **960×540** | **-** | **-** | **T** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
+| 10 | **[PointOdyssey](https://pointodyssey.com/)** | (to do) | **960×540** | **-** | **T** | **T** | **-** | **-** | **-** | **T** | **E** | **T** | **T** |
+| 11 | **[DyDToF](https://zhsun0357.github.io/consistent_dtof_video/)** | (to do) | **960×540** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **E** | **-** | **-** |
+| 12 | **[IRS](https://github.com/HKBU-HPML/IRS)** | (to do) | **960×540** | **-** | **T** | **-** | **T** | **T** | **T** | **-** | **-** | **-** | **T** |
+| 13 | **[Scene Flow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)** | (to do) | **960×540** | **-** | **-** | **-** | **-** | **E** | **-** | **-** | **-** | **-** | **-** |
+| 14 | **[3D Ken Burns](https://github.com/sniklaus/3d-ken-burns)** | (to do) | **512×512** | **-** | **T** | **-** | **T** | **T** | **T** | **-** | **-** | **-** | **-** |
+| 15 | **[TartanAir](https://theairlab.org/tartanair-dataset/)** | (to do) | **640×480** | **-** | **T** | **T** | **T** | **T** | **T** | **T** | **T** | **T** | **T** |
+| 16 | **[ParallelDomain-4D](https://gcd.cs.columbia.edu/)** | [![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3510_ECCV_2024_paper.php) | **640×480** | **-** | **-** | **-** | **-** | **-** | **-** | **T** | **-** | **-** | **-** |
+| 17 | **[GTA-SfM](https://github.com/HKUST-Aerial-Robotics/Flow-Motion-Depth)** | (to do) | **640×480** | **-** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **-** | **-** |
+| 18 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | (to do) | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **-** | **E** | **E** |
+| 19 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | (to do) | **1242×375** | **-** | **T** | **-** | **T** | **T** | **-** | **-** | **-** | **-** | **T** |
+| 20 | **[TartanAir Shibuya](https://github.com/haleqiu/tartanair-shibuya)** | (to do) | **640×360** | **E** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
 | | **Total: T (training)** |
 | | **Total: E (testing)** |
 
