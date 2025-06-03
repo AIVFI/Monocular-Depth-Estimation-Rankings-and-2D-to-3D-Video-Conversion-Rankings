@@ -1,5 +1,11 @@
 # <p align=center>Monocular Depth Estimation Rankings<br />and 2D to 3D Video Conversion Rankings</p>
 
+### Awesome Synthetic RGB-D Image Datasets for Training HD Video Depth Estimation Models
+📝 **Note:** By way of exception, I include one and only one image dataset, due to its size: 700K scenes and the incredible improvement in depth estimation results of the fine-tuned Depth Anything V2 ViT-B model on MegaSynth and evaluated on Hypersim. See the results in [Table 6](https://arxiv.org/abs/2412.14166).
+|  | Dataset | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Resolution |
+|:---:|:---:|:---:|:---:|
+| 1 | **[MegaSynth](https://hwjiang1510.github.io/MegaSynth/)** | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://arxiv.org/abs/2412.14166) | **512×512** |
+
 ### Awesome Synthetic RGB-D Video Datasets for Training HD Video Depth Estimation Models
 |  | Dataset | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Resolution | [B<br />o<br />T](https://arxiv.org/abs/2504.14516 "Back on Track") | [C<br />3<br />R](https://arxiv.org/abs/2501.12387 "CUT3R") | [D<br /><sup>2</sup><br />U](https://arxiv.org/abs/2504.06264 "D^2USt3R") | [D<br />P](https://openreview.net/forum?id=aueXfY0Clv "Depth Pro") | [G<br />C](https://arxiv.org/abs/2504.01016 "GeometryCrafter") | [M<br />o<br />G](https://arxiv.org/abs/2410.19115 "MoGe") | [P<br />O<br />M](https://arxiv.org/abs/2504.05692 "POMATO") | [R<br />D](https://arxiv.org/abs/2411.19189 "RollingDepth") | [U<br />D<br />2](https://arxiv.org/abs/2502.20110 "UniDepthV2") | [V<br />D<br />A](https://arxiv.org/abs/2501.12375 "Video Depth Anything") |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
