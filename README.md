@@ -26,9 +26,10 @@
 | 15 | **[TartanAir](https://theairlab.org/tartanair-dataset/)** | (to do) | **640×480** | **-** | **T** | **T** | **T** | **T** | **T** | **T** | **T** | **T** | **T** |
 | 16 | **[ParallelDomain-4D](https://gcd.cs.columbia.edu/)** | [![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3510_ECCV_2024_paper.php) | **640×480** | **-** | **-** | **-** | **-** | **-** | **-** | **T** | **-** | **-** | **-** |
 | 17 | **[GTA-SfM](https://github.com/HKUST-Aerial-Robotics/Flow-Motion-Depth)** | (to do) | **640×480** | **-** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **-** | **-** |
-| 18 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | (to do) | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **-** | **E** | **E** |
-| 19 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | (to do) | **1242×375** | **-** | **T** | **-** | **T** | **T** | **-** | **-** | **-** | **-** | **T** |
-| 20 | **[TartanAir Shibuya](https://github.com/haleqiu/tartanair-shibuya)** | (to do) | **640×360** | **E** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
+| 18 | **[InteriorNet](https://interiornet.org/)** | [![BMVC](https://img.shields.io/badge/2018-BMVC-555676)](https://arxiv.org/abs/1809.00716) | **640×480** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
+| 19 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | (to do) | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **-** | **E** | **E** |
+| 20 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | (to do) | **1242×375** | **-** | **T** | **-** | **T** | **T** | **-** | **-** | **-** | **-** | **T** |
+| 21 | **[TartanAir Shibuya](https://github.com/haleqiu/tartanair-shibuya)** | (to do) | **640×360** | **E** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
 | | **Total: T (training)** |
 | | **Total: E (testing)** |
 
