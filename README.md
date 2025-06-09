@@ -37,7 +37,6 @@
 
 ### 2D to 3D Video Conversion Rankings
 1. [**Stereo4D (400 video clips with 16 frames each at 5 fps): LPIPS<=0.242**](#stereo4d-400-video-clips-with-16-frames-each-at-5-fps-lpips0242)
-1. [**Qualitative comparison of four 2D to 3D video conversion methods: Rank (human perceptual judgment)**](#qualitative-comparison-of-four-2d-to-3d-video-conversion-methods-rank-human-perceptual-judgment)
 ### Monocular Depth Estimation Rankings
 #### I. Rankings based on temporal consistency metrics
 1. [**ScanNet (170 frames): TAE<=2.2**](#scannet-170-frames-tae22)
@@ -60,18 +59,6 @@
 | 1 | **M2SVid**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2505.16565) | **0.180** {MF} |
 | 2 | **SVG**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=sx2jXZuhIx) [![GitHub Stars](https://img.shields.io/github/stars/google/Stereoscopic-Video-Generation-via-Denoising-Frame-Matrix)](https://github.com/google/Stereoscopic-Video-Generation-via-Denoising-Frame-Matrix) | **0.217** {MF} |
 | 3 | **StereoCrafter**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/StereoCrafter)](https://github.com/TencentARC/StereoCrafter) | **0.242** {MF} |
-
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
-[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
-
-## Qualitative comparison of four 2D to 3D video conversion methods: Rank (human perceptual judgment)
-📝 **Note:** This ranking is based on my own perceptual judgement of the qualitative comparison results shown in [Figure 7](https://arxiv.org/abs/2409.07447). One output frame (right view) is compared with one input frame (left view) from the video clip: [22_dogskateboarder](https://github.com/stereocrafter/stereocrafter.github.io/releases/V0.0.1) and one output frame (right view) is compared with one input frame (left view) from the video clip: [scooter-black](https://davischallenge.org/davis2016/code.html)
-| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | Rank&nbsp;↓<br />(human&nbsp;perceptual<br />judgment) |
-|:---:|:---:|:---:|
-| 1 | **StereoCrafter**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/StereoCrafter)](https://github.com/TencentARC/StereoCrafter) | **1** |
-| 2-3 | **Immersity AI** | **2-3** |
-| 2-3 | **Owl3D** | **2-3** |
-| 4 | **Deep3D**<br />[![ECCV](https://img.shields.io/badge/2016-ECCV-67cd84)](https://link.springer.com/chapter/10.1007/978-3-319-46493-0_51) [![GitHub Stars](https://img.shields.io/github/stars/piiswrong/deep3d)](https://github.com/piiswrong/deep3d) | **4** |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
@@ -154,7 +141,6 @@
 | BetterDepth | BD | BetterDepth: Plug-and-Play Diffusion Refiner for Zero-Shot Monocular Depth Estimation | [![NeurIPS](https://img.shields.io/badge/2024-NeurIPS-68448a)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/c4b652b7e228b18e1c65478da3a4a2cf-Abstract-Conference.html) | - |
 | ChronoDepth | - | Learning Temporally Consistent Video Depth from Video Diffusion Priors | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://arxiv.org/abs/2406.01493) | [![GitHub Stars](https://img.shields.io/github/stars/jhaoshao/ChronoDepth)](https://github.com/jhaoshao/ChronoDepth) |
 | CUT3R | C3R | Continuous 3D Perception Model with Persistent State | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://arxiv.org/abs/2501.12387) | [![GitHub Stars](https://img.shields.io/github/stars/CUT3R/CUT3R)](https://github.com/CUT3R/CUT3R) |
-| Deep3D | - | Deep3D: Fully Automatic 2D-to-3D Video Conversion with Deep Convolutional Neural Networks | [![ECCV](https://img.shields.io/badge/2016-ECCV-67cd84)](https://link.springer.com/chapter/10.1007/978-3-319-46493-0_51) | [![GitHub Stars](https://img.shields.io/github/stars/piiswrong/deep3d)](https://github.com/piiswrong/deep3d) |
 | Depth Any Video | DAV | Depth Any Video with Scalable Synthetic Data | [![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=gWqFbnKsqR) | [![GitHub Stars](https://img.shields.io/github/stars/Nightmare-n/DepthAnyVideo)](https://github.com/Nightmare-n/DepthAnyVideo) |
 | Depth Anything | DA | Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data | [![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Depth_Anything_Unleashing_the_Power_of_Large-Scale_Unlabeled_Data_CVPR_2024_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/LiheYoung/Depth-Anything)](https://github.com/LiheYoung/Depth-Anything) |
 | Depth Anything V2 | DA V2 | Depth Anything V2 | [![NeurIPS](https://img.shields.io/badge/2024-NeurIPS-68448a)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/26cfdcd8fe6fd75cc53e92963a656c58-Abstract-Conference.html) | [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Depth-Anything-V2)](https://github.com/DepthAnything/Depth-Anything-V2) |
