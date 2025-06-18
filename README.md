@@ -28,7 +28,7 @@
 | 17 | **[GTA-SfM](https://github.com/HKUST-Aerial-Robotics/Flow-Motion-Depth)** | (to do) | **640×480** | **-** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **-** | **-** |
 | 18 | **[InteriorNet](https://interiornet.org/)** | [![BMVC](https://img.shields.io/badge/2018-BMVC-555676)](https://arxiv.org/abs/1809.00716) | **640×480** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
 | 19 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | (to do) | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **-** | **E** | **E** |
-| 20 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | (to do) | **1242×375** | **-** | **T** | **-** | **T** | **T** | **-** | **-** | **-** | **-** | **T** |
+| 20 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | [![arXiv](https://img.shields.io/badge/2020-arXiv-b31b1b)](https://arxiv.org/abs/2001.10773) | **1242×375** | **-** | **T** | **-** | **T** | **T** | **-** | **-** | **-** | **-** | **T** |
 | 21 | **[TartanAir Shibuya](https://github.com/haleqiu/tartanair-shibuya)** | (to do) | **640×360** | **E** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
 | | **Total: T (training)** |
 | | **Total: E (testing)** |
