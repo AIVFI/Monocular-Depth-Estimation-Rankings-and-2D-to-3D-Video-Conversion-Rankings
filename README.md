@@ -1,7 +1,7 @@
 # <p align=center>Monocular Depth Estimation Rankings<br />and 2D to 3D Video Conversion Rankings</p>
 
 ### Awesome Synthetic RGB-D Image Datasets for Training HD Video Depth Estimation Models
-📝 **Note:** By way of exception, I include one and only one image dataset, due to its size: 700K scenes and the incredible improvement in depth estimation results of the fine-tuned Depth Anything V2 ViT-B model on MegaSynth and evaluated on Hypersim. See the results in [Table 6](https://arxiv.org/abs/2412.14166).
+📝 **Note:** By way of exception, I include one and only one image dataset, due to its size: 700K scenes and the incredible improvement in depth estimation results of the fine-tuned Depth Anything V2 ViT-B model on MegaSynth and evaluated on Hypersim. See the results in [Table 6](https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_MegaSynth_Scaling_Up_3D_Scene_Reconstruction_with_Synthesized_Data_CVPR_2025_paper.html).
 |  | Dataset | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Resolution |
 |:---:|:---:|:---:|:---:|
 | 1 | **[MegaSynth](https://hwjiang1510.github.io/MegaSynth/)** | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_MegaSynth_Scaling_Up_3D_Scene_Reconstruction_with_Synthesized_Data_CVPR_2025_paper.html) | **512×512** |
@@ -22,14 +22,15 @@
 | 11 | **[DyDToF](https://zhsun0357.github.io/consistent_dtof_video/)** | [![CVPR](https://img.shields.io/badge/2023-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2023/html/Sun_Consistent_Direct_Time-of-Flight_Video_Depth_Super-Resolution_CVPR_2023_paper.html) | **960×540** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **E** | **-** | **-** |
 | 12 | **[IRS](https://github.com/HKBU-HPML/IRS)** | (to do) | **960×540** | **-** | **T** | **-** | **T** | **T** | **T** | **-** | **-** | **-** | **T** |
 | 13 | **[Scene Flow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)** | [![CVPR](https://img.shields.io/badge/2016-CVPR-1e407f)](https://openaccess.thecvf.com/content_cvpr_2016/html/Mayer_A_Large_Dataset_CVPR_2016_paper.html) | **960×540** | **-** | **-** | **-** | **-** | **E** | **-** | **-** | **-** | **-** | **-** |
-| 14 | **[3D Ken Burns](https://github.com/sniklaus/3d-ken-burns)** | (to do) | **512×512** | **-** | **T** | **-** | **T** | **T** | **T** | **-** | **-** | **-** | **-** |
-| 15 | **[TartanAir](https://theairlab.org/tartanair-dataset/)** | (to do) | **640×480** | **-** | **T** | **T** | **T** | **T** | **T** | **T** | **T** | **T** | **T** |
-| 16 | **[ParallelDomain-4D](https://gcd.cs.columbia.edu/)** | [![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3510_ECCV_2024_paper.php) | **640×480** | **-** | **-** | **-** | **-** | **-** | **-** | **T** | **-** | **-** | **-** |
-| 17 | **[GTA-SfM](https://github.com/HKUST-Aerial-Robotics/Flow-Motion-Depth)** | (to do) | **640×480** | **-** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **-** | **-** |
-| 18 | **[InteriorNet](https://interiornet.org/)** | [![BMVC](https://img.shields.io/badge/2018-BMVC-555676)](https://arxiv.org/abs/1809.00716) | **640×480** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
-| 19 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | (to do) | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **-** | **E** | **E** |
-| 20 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | [![arXiv](https://img.shields.io/badge/2020-arXiv-b31b1b)](https://arxiv.org/abs/2001.10773) | **1242×375** | **-** | **T** | **-** | **T** | **T** | **-** | **-** | **-** | **-** | **T** |
-| 21 | **[TartanAir Shibuya](https://github.com/haleqiu/tartanair-shibuya)** | (to do) | **640×360** | **E** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
+| 14 | **[THUD++](https://jackyzengl.github.io/THUD-plus-plus.github.io/)** | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2412.08096) | **730×530** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
+| 15 | **[3D Ken Burns](https://github.com/sniklaus/3d-ken-burns)** | (to do) | **512×512** | **-** | **T** | **-** | **T** | **T** | **T** | **-** | **-** | **-** | **-** |
+| 16 | **[TartanAir](https://theairlab.org/tartanair-dataset/)** | (to do) | **640×480** | **-** | **T** | **T** | **T** | **T** | **T** | **T** | **T** | **T** | **T** |
+| 17 | **[ParallelDomain-4D](https://gcd.cs.columbia.edu/)** | [![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3510_ECCV_2024_paper.php) | **640×480** | **-** | **-** | **-** | **-** | **-** | **-** | **T** | **-** | **-** | **-** |
+| 18 | **[GTA-SfM](https://github.com/HKUST-Aerial-Robotics/Flow-Motion-Depth)** | (to do) | **640×480** | **-** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **-** | **-** |
+| 19 | **[InteriorNet](https://interiornet.org/)** | [![BMVC](https://img.shields.io/badge/2018-BMVC-555676)](https://arxiv.org/abs/1809.00716) | **640×480** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
+| 20 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | (to do) | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **-** | **E** | **E** |
+| 21 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | [![arXiv](https://img.shields.io/badge/2020-arXiv-b31b1b)](https://arxiv.org/abs/2001.10773) | **1242×375** | **-** | **T** | **-** | **T** | **T** | **-** | **-** | **-** | **-** | **T** |
+| 22 | **[TartanAir Shibuya](https://github.com/haleqiu/tartanair-shibuya)** | (to do) | **640×360** | **E** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
 | | **Total: T (training)** |
 | | **Total: E (testing)** |
 
