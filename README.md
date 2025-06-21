@@ -28,7 +28,7 @@
 | 17 | **[ParallelDomain-4D](https://gcd.cs.columbia.edu/)** | [![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3510_ECCV_2024_paper.php) | **640×480** | **-** | **-** | **-** | **-** | **-** | **-** | **T** | **-** | **-** | **-** |
 | 18 | **[GTA-SfM](https://github.com/HKUST-Aerial-Robotics/Flow-Motion-Depth)** | (to do) | **640×480** | **-** | **-** | **-** | **-** | **T** | **T** | **-** | **-** | **-** | **-** |
 | 19 | **[InteriorNet](https://interiornet.org/)** | [![BMVC](https://img.shields.io/badge/2018-BMVC-555676)](https://arxiv.org/abs/1809.00716) | **640×480** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
-| 20 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | (to do) | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **-** | **E** | **E** |
+| 20 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | [![ECCV](https://img.shields.io/badge/2012-ECCV-67cd84)](https://link.springer.com/chapter/10.1007/978-3-642-33868-7_17) | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **-** | **E** | **E** |
 | 21 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | [![arXiv](https://img.shields.io/badge/2020-arXiv-b31b1b)](https://arxiv.org/abs/2001.10773) | **1242×375** | **-** | **T** | **-** | **T** | **T** | **-** | **-** | **-** | **-** | **T** |
 | 22 | **[TartanAir Shibuya](https://github.com/haleqiu/tartanair-shibuya)** | (to do) | **640×360** | **E** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
 | | **Total: T (training)** |
