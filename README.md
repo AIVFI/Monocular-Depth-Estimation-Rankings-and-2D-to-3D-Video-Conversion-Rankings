@@ -37,8 +37,8 @@ SYNTHIA-SEQS-01-SPRING\RGB\Stereo_Left\Omni_F\000071.png.
 | 22 | **[MPI Sintel](http://sintel.is.tue.mpg.de/)** | [![ECCV](https://img.shields.io/badge/2012-ECCV-67cd84)](https://link.springer.com/chapter/10.1007/978-3-642-33868-7_17) | **1024×436** | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **-** | **E** |
 | 23 | **[Virtual KITTI 2](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/)** | [![arXiv](https://img.shields.io/badge/2020-arXiv-b31b1b)](https://arxiv.org/abs/2001.10773) | **1242×375** | **T** | **-** | **T** | **T** | **T** | **-** | **T** | **-** | **-** | **-** | **-** |
 | 24 | **[TartanAir Shibuya](https://github.com/haleqiu/tartanair-shibuya)** | [![ICRA](https://img.shields.io/badge/2022-ICRA-73afd7)](https://ieeexplore.ieee.org/document/9811667) | **640×360** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **E** |
-|  | **Total: T (training)** |  |  | **11** | **9** | **9** | **8** | **7** | **5** | **4** | **4** | **4** | **1** |
-|  | **Total: E (testing)** |  |  | **2** | **1** | **1** | **2** | **1** | **1** | **1** | **1** | **1** | **2** |
+|  | **Total: T (training)** |  |  | **11** | **9** | **9** | **8** | **7** | **5** | **4** | **4** | **4** | **1** | **0** |
+|  | **Total: E (testing)** |  |  | **2** | **1** | **1** | **2** | **1** | **1** | **1** | **1** | **1** | **2** | **2** |
 
 --------------------
 
