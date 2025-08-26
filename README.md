@@ -1,4 +1,4 @@
-# <p align=center>Monocular Depth Estimation Rankings<br />and 2D to 3D Video Conversion Rankings</p>
+# <p align=center>Video Depth Estimation Rankings<br />and 2D to 3D Video Conversion Rankings</p>
 
 ## Awesome Synthetic RGB-D Image Datasets for Training HD Video Depth Estimation Models
 📝 **Note:** As an exception, I recommend one and only one image dataset, due to its size: 700K scenes and the incredible improvement in depth estimation results of the fine-tuned Depth Anything V2 ViT-B model on MegaSynth and evaluated on Hypersim. See the results in [Table 6](https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_MegaSynth_Scaling_Up_3D_Scene_Reconstruction_with_Synthesized_Data_CVPR_2025_paper.html).
@@ -50,16 +50,13 @@
 
 ### 2D to 3D Video Conversion Rankings
 1. [**Stereo4D (400 video clips with 16 frames each at 5 fps): LPIPS<=0.242**](#stereo4d-400-video-clips-with-16-frames-each-at-5-fps-lpips0242)
-### Monocular Depth Estimation Rankings
-#### I. Rankings based on temporal consistency metrics
+### Video Depth Estimation Rankings
 1. [**ScanNet (170 frames): TAE<=2.2**](#scannet-170-frames-tae22)
-#### II. Rankings based on 3D metrics
-1. [**iBims-1: F-score>=0.303**](#ibims-1-f-score0303)
-#### III. Rankings based on 2D metrics
 1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.052**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-absrel0052)
-1. Old ranking, not updated - to be deleted [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.079**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-absrel0079)
+### Other Monocular Depth Estimation Rankings
 1. [**NYU-Depth V2: AbsRel<=0.042 (relative depth)**](#nyu-depth-v2-absrel0042-relative-depth)
 1. [**NYU-Depth V2: AbsRel<=0.051 (metric depth)**](#nyu-depth-v2-absrel0051-metric-depth)
+1. [**iBims-1: F-score>=0.303**](#ibims-1-f-score0303)
 ### Appendices
 - **Appendix 1: Rules for qualifying models for the rankings** (to do)
 - **Appendix 2: Metrics selection for the rankings** (to do)
@@ -90,20 +87,9 @@
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
-## iBims-1: F-score>=0.303
-| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;F-score&nbsp;↑&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.20110)<br />TABLE I<br />UD2 | &nbsp;&nbsp;F-score&nbsp;↑&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Piccinelli_UniK3D_Universal_Camera_Monocular_3D_Estimation_CVPR_2025_paper.html)<br />Table 20<br />UniK3D |
-|:---:|:---:|:---:|:---:|
-| 1 | **UniDepthV2-Large**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.20110) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) | **0.709** {1} | - |
-| 2 | **UniK3D-Large**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Piccinelli_UniK3D_Universal_Camera_Monocular_3D_Estimation_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniK3D)](https://github.com/lpiccinelli-eth/UniK3D) | - | **0.698** {1} |
-| 3 | **Depth Pro**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=aueXfY0Clv) [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-depth-pro)](https://github.com/apple/ml-depth-pro) | **0.628** {1} | **0.628** {1} |
-| 4 | **MASt3R**<br />[![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9080_ECCV_2024_paper.php) [![GitHub Stars](https://img.shields.io/github/stars/naver/mast3r)](https://github.com/naver/mast3r) | **0.557** {2} | **0.557** {2} |
-| 5 | **UniDepth**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Piccinelli_UniDepth_Universal_Monocular_Metric_Depth_Estimation_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) | **0.303** {1} | **0.303** {1} |
-
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
-[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
-
 ## Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.052
-📝 **Note:** 1) See [Figure 4](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html)
+📝 **Note 1:** Alignment: per-sequence scale & shift  
+📝 **Note 2:** See [Figure 4](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html)
 | RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![ICCV](https://img.shields.io/badge/2025-ICCV-fcb900)](https://arxiv.org/abs/2507.12462)<br />Table 2<br />ST2 | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Uni4D_Unifying_Visual_Foundation_Models_for_4D_Modeling_from_a_CVPR_2025_paper.html)<br />Table 2<br />Uni4D | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2507.13347)<br />Table 5<br />π<sup>3</sup> | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html)<br />Table S1<br />VDA |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | **SpatialTrackerV2**<br />[![ICCV](https://img.shields.io/badge/2025-ICCV-fcb900)](https://arxiv.org/abs/2507.12462) [![GitHub Stars](https://img.shields.io/github/stars/henry123-boy/SpaTrackerV2)](https://github.com/henry123-boy/SpaTrackerV2) | **0.028** {MF} | - | - | - |
@@ -111,30 +97,11 @@
 | 3 | **Uni4D**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Uni4D_Unifying_Visual_Foundation_Models_for_4D_Modeling_from_a_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/Davidyao99/uni4d)](https://github.com/Davidyao99/uni4d) | - | **0.038** {MF} | - | - |
 | 4 | **UniDepth**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Piccinelli_UniDepth_Universal_Monocular_Metric_Depth_Estimation_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) | - | **0.040** {1} | - | - |
 | 5 | **π<sup>3</sup>**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2507.13347) [![GitHub Stars](https://img.shields.io/github/stars/yyfz/Pi3)](https://github.com/yyfz/Pi3) | - | - | **0.043** {MF} | - |
-| 6 | - | - | - | - | - |
-| 7-8 | - | - | - | - | - |
+| 6 | **Metric3D v2**<br />[![TPAMI](https://img.shields.io/badge/2024-TPAMI-fefd02)](https://ieeexplore.ieee.org/document/10638254) [![GitHub Stars](https://img.shields.io/github/stars/YvanYin/Metric3D)](https://github.com/YvanYin/Metric3D) | - | **0.044** {1} | - | - |
+| 7-8 | **Depth Pro**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=aueXfY0Clv) [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-depth-pro)](https://github.com/apple/ml-depth-pro) | - | **0.049** {1} | - | - |
 | 7-8 | **VDA-L**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Video-Depth-Anything)](https://github.com/DepthAnything/Video-Depth-Anything) | **0.049** {MF} | - | - | **0.053** {MF} |
 | 9 | **Depth Any Video**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=gWqFbnKsqR) [![GitHub Stars](https://img.shields.io/github/stars/Nightmare-n/DepthAnyVideo)](https://github.com/Nightmare-n/DepthAnyVideo) | - | - | - | **0.051** {MF} |
-| 10 | - | - | - | - | - |
-
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
-[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
-
-## Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.079
-📝 **Note:** 1) See [Figure 4](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html) 2) The ranking order is determined in the first instance by a direct comparison of the scores of two models in the same paper. If there is no such direct comparison in any paper or there is a disagreement in different papers, the ranking order is determined by the best score of the compared two models in all papers that are shown in the columns as data sources. The DepthCrafter rank is based on the latest version 1.0.1.
-| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html)<br />VDA | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.13078)<br />L4P | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2504.07961)<br />Geo4D | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Lu_Align3R_Aligned_Monocular_Depth_Estimation_for_Dynamic_Videos_CVPR_2025_paper.html)<br />Align3R | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=lJpqxFgWCM)<br />MonST3R | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Hu_DepthCrafter_Generating_Consistent_Long_Depth_Sequences_for_Open-world_Videos_CVPR_2025_paper.html)<br />DC | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Continuous_3D_Perception_Model_with_Persistent_State_CVPR_2025_paper.html)<br />CUT3R | &nbsp;&nbsp;AbsRel&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Ke_Video_Depth_without_Video_Models_CVPR_2025_paper.html)<br />RD |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | **Depth Any Video**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=gWqFbnKsqR) [![GitHub Stars](https://img.shields.io/github/stars/Nightmare-n/DepthAnyVideo)](https://github.com/Nightmare-n/DepthAnyVideo) | **0.051** {MF} | - | - | - | - | - | - | - |
-| 2 | **VDA-L**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Video-Depth-Anything)](https://github.com/DepthAnything/Video-Depth-Anything) | **0.053** {MF} | - | - | - | - | - | - | - |
-| 3 | **L4P**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.13078) | - | **0.056** {MF} | - | - | - | - | - | - |
-| 4 | **Geo4D**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2504.07961) [![GitHub Stars](https://img.shields.io/github/stars/jzr99/Geo4D)](https://github.com/jzr99/Geo4D) | - | - | **0.059** {MF} | - | - | - | - | - |
-| 5 | **Depth Pro**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=aueXfY0Clv) [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-depth-pro)](https://github.com/apple/ml-depth-pro) | - | - | - | **0.067** {1} | - | - | - | - |
-| 6 | **Align3R (Depth Pro)**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Lu_Align3R_Aligned_Monocular_Depth_Estimation_for_Dynamic_Videos_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/jiah-cloud/Align3R)](https://github.com/jiah-cloud/Align3R) | - | - | - | **0.068** {2} | - | - | - | - |
-| 7 | **MonST3R**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=lJpqxFgWCM) [![GitHub Stars](https://img.shields.io/github/stars/Junyi42/monst3r)](https://github.com/Junyi42/monst3r) | - | - | **0.063** {2} | **0.082** {2} | **0.063** {2} | - | **0.066** {2} | - |
-| 8 | **DepthCrafter v1.0.1**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Hu_DepthCrafter_Generating_Consistent_Long_Depth_Sequences_for_Open-world_Videos_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/Tencent/DepthCrafter)](https://github.com/Tencent/DepthCrafter) | **0.066** {MF}<br />(DC v1.0.0) | **0.071** {MF} | **0.071** {MF} | **0.075** {MF}<br />(DC v1.0.0) | **0.075** {MF}<br />(DC v1.0.0) | **0.071** {MF} | **0.075** {MF}<br />(DC v1.0.0) | **0.066** {MF}<br />(DC v1.0.0) |
-| 9 | **CUT3R**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Continuous_3D_Perception_Model_with_Persistent_State_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/CUT3R/CUT3R)](https://github.com/CUT3R/CUT3R) | - | - | - | - | - | - | **0.074** {MF} | - |
-| 10 | **RollingDepth**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Ke_Video_Depth_without_Video_Models_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/prs-eth/RollingDepth)](https://github.com/prs-eth/RollingDepth) | - | - | - | - | - | - | - | **0.079** {MF} |
-| 11 | **Depth Anything**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Depth_Anything_Unleashing_the_Power_of_Large-Scale_Unlabeled_Data_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/LiheYoung/Depth-Anything)](https://github.com/LiheYoung/Depth-Anything) | - | **0.078** {1} | - | - | - | **0.078** {1} | - | **0.099** {1} |
+| 10 | **VGGT**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/vggt)](https://github.com/facebookresearch/vggt) | **0.056** {MF} | - | **0.052** {MF} | - |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
@@ -160,6 +127,18 @@
 | 3 | **Metric3D v2 ViT-L FT**<br />[![TPAMI](https://img.shields.io/badge/2024-TPAMI-fefd02)](https://ieeexplore.ieee.org/document/10638254) [![GitHub Stars](https://img.shields.io/github/stars/YvanYin/Metric3D)](https://github.com/YvanYin/Metric3D) | **0.0470** {1} | **0.0470** {1} | **0.047** {1} | - | - |
 | 4 | **Metric-Solver**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2504.12103) [![GitHub Stars](https://img.shields.io/github/stars/Tele-AI/MetricSolver)](https://github.com/Tele-AI/MetricSolver) | - | - | - | **0.049** {1} | - |
 | 5 | **GRIN_FT_NI**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.09896) | - | - | - | - | **0.051** {1} |
+
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
+
+## iBims-1: F-score>=0.303
+| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;F-score&nbsp;↑&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.20110)<br />TABLE I<br />UD2 | &nbsp;&nbsp;F-score&nbsp;↑&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Piccinelli_UniK3D_Universal_Camera_Monocular_3D_Estimation_CVPR_2025_paper.html)<br />Table 20<br />UniK3D |
+|:---:|:---:|:---:|:---:|
+| 1 | **UniDepthV2-Large**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.20110) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) | **0.709** {1} | - |
+| 2 | **UniK3D-Large**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Piccinelli_UniK3D_Universal_Camera_Monocular_3D_Estimation_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniK3D)](https://github.com/lpiccinelli-eth/UniK3D) | - | **0.698** {1} |
+| 3 | **Depth Pro**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=aueXfY0Clv) [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-depth-pro)](https://github.com/apple/ml-depth-pro) | **0.628** {1} | **0.628** {1} |
+| 4 | **MASt3R**<br />[![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9080_ECCV_2024_paper.php) [![GitHub Stars](https://img.shields.io/github/stars/naver/mast3r)](https://github.com/naver/mast3r) | **0.557** {2} | **0.557** {2} |
+| 5 | **UniDepth**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Piccinelli_UniDepth_Universal_Monocular_Metric_Depth_Estimation_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) | **0.303** {1} | **0.303** {1} |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
@@ -190,14 +169,15 @@
 | UniDepth | UD | UniDepth: Universal Monocular Metric Depth Estimation | [![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Piccinelli_UniDepth_Universal_Monocular_Metric_Depth_Estimation_CVPR_2024_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) |
 | UniDepthV2 | UD2 | UniDepthV2: Universal Monocular Metric Depth Estimation Made Simpler | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.20110) | [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) |
 | UniK3D | - | UniK3D: Universal Camera Monocular 3D Estimation | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Piccinelli_UniK3D_Universal_Camera_Monocular_3D_Estimation_CVPR_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniK3D)](https://github.com/lpiccinelli-eth/UniK3D) |
+| VGGT | - | VGGT: Visual Geometry Grounded Transformer | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/vggt)](https://github.com/facebookresearch/vggt) |
 | Video Depth Anything | VDA | Video Depth Anything: Consistent Depth Estimation for Super-Long Videos | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Video-Depth-Anything)](https://github.com/DepthAnything/Video-Depth-Anything) |
 | π<sup>3</sup> | - | π<sup>3</sup>: Scalable Permutation-Equivariant Visual Geometry Learning | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2507.13347) | [![GitHub Stars](https://img.shields.io/github/stars/yyfz/Pi3)](https://github.com/yyfz/Pi3) |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
-## List of other papers
-
+## List of other research papers
+📝 **Note:** This list includes the research papers of models that dropped out of the "Bonn RGB-D Dynamic ranking (5 video clips with 110 frames each): AbsRel" as a result of a change in the entry threshold for this ranking in August 2025 and are simultaneously ineligible for the other rankings.
 | Method | Abbr. | Paper | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />(Alt link) | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; |
 |:---:|:---:|:---:|:---:|:---:|
 | Align3R | - | Align3R: Aligned Monocular Depth Estimation for Dynamic Videos | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Lu_Align3R_Aligned_Monocular_Depth_Estimation_for_Dynamic_Videos_CVPR_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/jiah-cloud/Align3R)](https://github.com/jiah-cloud/Align3R) |
