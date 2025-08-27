@@ -52,6 +52,7 @@
 1. [**Stereo4D (400 video clips with 16 frames each at 5 fps): LPIPS<=0.242**](#stereo4d-400-video-clips-with-16-frames-each-at-5-fps-lpips0242)
 ### Video Depth Estimation Rankings
 1. [**ScanNet (170 frames): TAE<=2.2**](#scannet-170-frames-tae22)
+1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): δ<sub>1</sub>>=0.979**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-δ10979)
 1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.052**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-absrel0052)
 ### Other Monocular Depth Estimation Rankings
 1. [**NYU-Depth V2: AbsRel<=0.042 (relative depth)**](#nyu-depth-v2-absrel0042-relative-depth)
@@ -83,6 +84,23 @@
 | 4 | **ChronoDepth**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Shao_Learning_Temporally_Consistent_Video_Depth_from_Video_Diffusion_Priors_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/jhaoshao/ChronoDepth)](https://github.com/jhaoshao/ChronoDepth) | **1.022** {MF} |
 | 5 | **Depth Anything V2 Large**<br />[![NeurIPS](https://img.shields.io/badge/2024-NeurIPS-68448a)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/26cfdcd8fe6fd75cc53e92963a656c58-Abstract-Conference.html) [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Depth-Anything-V2)](https://github.com/DepthAnything/Depth-Anything-V2) | **1.140** {1} |
 | 6 | **NVDS**<br />[![ICCV](https://img.shields.io/badge/2023-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Neural_Video_Depth_Stabilizer_ICCV_2023_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/RaymondWang987/NVDS)](https://github.com/RaymondWang987/NVDS) | **2.176** {4} |
+
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
+
+## Bonn RGB-D Dynamic (5 video clips with 110 frames each): δ<sub>1</sub>>=0.979
+📝 **Note 1:** Alignment: per-sequence scale & shift  
+📝 **Note 2:** See [Figure 4](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html)
+| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;δ<sub>1</sub>&nbsp;↑&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![ICCV](https://img.shields.io/badge/2025-ICCV-fcb900)](https://arxiv.org/abs/2507.12462)<br />Table 2<br />ST2 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;δ<sub>1</sub>&nbsp;↑&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Uni4D_Unifying_Visual_Foundation_Models_for_4D_Modeling_from_a_CVPR_2025_paper.html)<br />Table 2<br />Uni4D | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;δ<sub>1</sub>&nbsp;↑&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html)<br />Table S1<br />VDA |
+|:---:|:---:|:---:|:---:|:---:|
+| 1 | **SpatialTrackerV2**<br />[![ICCV](https://img.shields.io/badge/2025-ICCV-fcb900)](https://arxiv.org/abs/2507.12462) [![GitHub Stars](https://img.shields.io/github/stars/henry123-boy/SpaTrackerV2)](https://github.com/henry123-boy/SpaTrackerV2) | **0.988** {MF} | - | - |
+| 2 | **Depth Pro**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=aueXfY0Clv) [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-depth-pro)](https://github.com/apple/ml-depth-pro) | - | **0.986** {1} | - |
+| 3-4 | **Metric3D v2**<br />[![TPAMI](https://img.shields.io/badge/2024-TPAMI-fefd02)](https://ieeexplore.ieee.org/document/10638254) [![GitHub Stars](https://img.shields.io/github/stars/YvanYin/Metric3D)](https://github.com/YvanYin/Metric3D) | - | **0.985** {1} | - |
+| 3-4 | **UniDepth**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Piccinelli_UniDepth_Universal_Monocular_Metric_Depth_Estimation_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) | - | **0.985** {1} | - |
+| 5 | **Uni4D**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Uni4D_Unifying_Visual_Foundation_Models_for_4D_Modeling_from_a_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/Davidyao99/uni4d)](https://github.com/Davidyao99/uni4d) | - | **0.983** {MF} | - |
+| 6 | **VDA-L**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Video-Depth-Anything)](https://github.com/DepthAnything/Video-Depth-Anything) | **0.982** {MF} | - | **0.972** {MF} |
+| 7 | **Depth Any Video**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=gWqFbnKsqR) [![GitHub Stars](https://img.shields.io/github/stars/Nightmare-n/DepthAnyVideo)](https://github.com/Nightmare-n/DepthAnyVideo) | - | - | **0.981** {MF} |
+| 8 | **DepthCrafter**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Hu_DepthCrafter_Generating_Consistent_Long_Depth_Sequences_for_Open-world_Videos_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/Tencent/DepthCrafter)](https://github.com/Tencent/DepthCrafter) | **0.979** {MF} | **0.976** {MF} | **0.979** {MF} |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
